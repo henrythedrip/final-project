@@ -1,0 +1,405 @@
+{
+    "questions": [
+      {
+        "question": "The Earth is flat.",
+        "answer": "False"
+      },
+      {
+        "question": "The capital of France is London.",
+        "answer": "False"
+      },
+      {
+        "question": "Water boils at 100 degrees Celsius.",
+        "answer": "True"
+      },
+      {
+        "question": "The Great Wall of China is visible from space.",
+        "answer": "False"
+      },
+      {
+        "question": "Dolphins are fish.",
+        "answer": "False"
+      },
+      {
+        "question": "Mount Everest is the tallest mountain in the world.",
+        "answer": "True"
+      },
+      {
+        "question": "The human body has 206 bones.",
+        "answer": "True"
+      },
+      {
+        "question": "The Pacific Ocean is the largest ocean on Earth.",
+        "answer": "True"
+      },
+      {
+        "question": "The sun sets in the west.",
+        "answer": "True"
+      },
+      {
+        "question": "Spiders are insects.",
+        "answer": "False"
+      },
+      {
+        "question": "Australia is both a country and a continent.",
+        "answer": "True"
+      },
+      {
+        "question": "Shakespeare wrote \"To be or not to be\" in Hamlet.",
+        "answer": "True"
+      },
+      {
+        "question": "The Statue of Liberty was a gift from France to the United States.",
+        "answer": "True"
+      },
+      {
+        "question": "The capital of Brazil is Rio de Janeiro.",
+        "answer": "False"
+      },
+      {
+        "question": "Diamonds are the hardest substance on Earth.",
+        "answer": "True"
+      },
+      {
+        "question": "The moon orbits the Earth every 30 days.",
+        "answer": "False"
+      },
+      {
+        "question": "The Eiffel Tower is located in Germany.",
+        "answer": "False"
+      },
+      {
+        "question": "Oxygen is the most abundant element in the Earth's atmosphere.",
+        "answer": "False"
+      },
+      {
+        "question": "Penguins can fly.",
+        "answer": "False"
+      },
+      {
+        "question": "George Washington was the first President of the United States.",
+        "answer": "True"
+      },
+      {
+        "question": "The Nile River is the longest river in the world.",
+        "answer": "True"
+      },
+      {
+        "question": "The human body has five senses.",
+        "answer": "False"
+      },
+      {
+        "question": "Elephants are the largest land animals on Earth.",
+        "answer": "True"
+      },
+      {
+        "question": "Mercury is the hottest planet in the solar system.",
+        "answer": "True"
+      },
+      {
+        "question": "Birds are reptiles.",
+        "answer": "False"
+      },
+      {
+        "question": "The Amazon Rainforest is located in Africa.",
+        "answer": "False"
+      },
+      {
+        "question": "The Mona Lisa was painted by Leonardo da Vinci.",
+        "answer": "True"
+      },
+      {
+        "question": "The Amazon River is the longest river in South America.",
+        "answer": "True"
+      },
+      {
+        "question": "Sound travels faster through water than through air.",
+        "answer": "True"
+      },
+      {
+        "question": "The Sahara Desert is the largest desert in the world.",
+        "answer": "True"
+      },
+      {
+        "question": "Pluto is considered a planet.",
+        "answer": "False"
+      },
+      {
+        "question": "The human heart pumps blood to the lungs and the brain simultaneously.",
+        "answer": "False"
+      },
+      {
+        "question": "The Atlantic Ocean is shrinking.",
+        "answer": "False"
+      },
+      {
+        "question": "Bees produce honey from flower nectar.",
+        "answer": "True"
+      },
+      {
+        "question": "Antarctica is the coldest continent on Earth.",
+        "answer": "True"
+      },
+      {
+        "question": "The Titanic sank in 1912.",
+        "answer": "True"
+      },
+      {
+        "question": "Venus is the closest planet to the sun.",
+        "answer": "False"
+      },
+      {
+        "question": "A human's DNA is identical to that of a chimpanzee.",
+        "answer": "False"
+      },
+      {
+        "question": "The Earth's core is made of molten iron.",
+        "answer": "True"
+      },
+      {
+        "question": "Rome is located in Italy.",
+        "answer": "True"
+      },
+      {
+        "question": "Thomas Edison invented the light bulb.",
+        "answer": "True"
+      },
+      {
+        "question": "Mars has two moons.",
+        "answer": "True"
+      },
+      {
+        "question": "The Earth is the third planet from the sun.",
+        "answer": "True"
+      },
+      {
+        "question": "The Declaration of Independence was signed in 1776.",
+        "answer": "True"
+      },
+      {
+        "question": "The leaning tower of Pisa is in Italy.",
+        "answer": "True"
+      },
+      {
+        "question": "The fastest land animal is the cheetah.",
+        "answer": "True"
+      },
+      {
+        "question": "The primary colors of light are red, green, and blue.",
+        "answer": "True"
+      },
+      {
+        "question": "Koalas are bears.",
+        "answer": "False"
+      },
+      {
+        "question": "The Arctic Circle is located at the North Pole.",
+        "answer": "True"
+      },
+      {
+        "question": "The coldest temperature ever recorded on Earth was in Antarctica.",
+        "answer": "True"
+      },
+      {
+        "question": "The capital of Spain is Barcelona.",
+        "answer": "False"
+      },
+      {
+        "question": "The speed of light is faster than the speed of sound.",
+        "answer": "True"
+      },
+      {
+        "question": "Jupiter is the largest planet in the solar system.",
+        "answer": "True"
+      },
+      {
+        "question": "The Bill of Rights is the first ten amendments to the U.S. Constitution.",
+        "answer": "True"
+      },
+      {
+        "question": "A kilometer is longer than a mile.",
+        "answer": "False"
+      },
+      {
+        "question": "Fidel Castro was the President of Cuba for over 50 years.",
+        "answer": "False"
+      },
+      {
+        "question": "The human body has four chambers in the heart.",
+        "answer": "True"
+      },
+      {
+        "question": "Beethoven was deaf.",
+        "answer": "True"
+      },
+      {
+        "question": "Snakes have slimy skin.",
+        "answer": "False"
+      },
+      {
+        "question": "George Orwell wrote \"1984.\"",
+        "answer": "True"
+      },
+      {
+        "question": "The currency of Japan is the yen.",
+        "answer": "True"
+      },
+      {
+        "question": "Napoleon Bonaparte was very tall.",
+        "answer": "False"
+      },
+      {
+        "question": "The Olympic Games originated in ancient Greece.",
+        "answer": "True"
+      },
+      {
+        "question": "The White House is located in New York City.",
+        "answer": "False"
+      },
+      {
+        "question": "Mars is known as the \"Red Planet.\"",
+        "answer": "True"
+      },
+      {
+        "question": "Canada is the largest country in the world by land area.",
+        "answer": "False"
+      },
+      {
+        "question": "Diamonds are formed from coal.",
+        "answer": "False"
+      },
+      {
+        "question": "The equator divides the Earth into two equal halves.",
+        "answer": "False"
+      },
+      {
+        "question": "Benjamin Franklin discovered electricity.",
+        "answer": "False"
+      },
+      {
+        "question": "Tigers are native to Africa.",
+        "answer": "False"
+      },
+      {
+        "question": "The Mona Lisa has no eyebrows.",
+        "answer": "True"
+      },
+      {
+        "question": "The human body has more than 200 muscles.",
+        "answer": "True"
+      },
+      {
+        "question": "The currency of India is the rupee.",
+        "answer": "True"
+      },
+      {
+        "question": "The Great Barrier Reef is located in the Caribbean Sea.",
+        "answer": "False"
+      },
+      {
+        "question": "A tomato is a fruit.",
+        "answer": "True"
+      },
+      {
+        "question": "The human brain stops growing at the age of 25.",
+        "answer": "False"
+      },
+      {
+        "question": "The largest bone in the human body is the femur.",
+        "answer": "True"
+      },
+      {
+        "question": "The first human to walk on the moon was Neil Armstrong.",
+        "answer": "True"
+      },
+      {
+        "question": "A butterfly's lifespan is only one day.",
+        "answer": "False"
+      },
+      {
+        "question": "Hawaii is the largest island in the United States.",
+        "answer": "True"
+      },
+      {
+        "question": "The Earth's atmosphere is mostly composed of nitrogen.",
+        "answer": "True"
+      },
+      {
+        "question": "Beethoven was born in Germany.",
+        "answer": "True"
+      },
+      {
+        "question": "The human body has only one liver.",
+        "answer": "True"
+      },
+      {
+        "question": "Julius Caesar was assassinated on the \"Ides of March.\"",
+        "answer": "True"
+      },
+      {
+        "question": "The speed of sound is faster in water than in air.",
+        "answer": "True"
+      },
+      {
+        "question": "The first color photograph was taken in the 20th century.",
+        "answer": "True"
+      },
+      {
+        "question": "Harry Potter is a series of books written by J.R.R. Tolkien.",
+        "answer": "False"
+      },
+      {
+        "question": "The star closest to the Earth is the Sun.",
+        "answer": "True"
+      },
+      {
+        "question": "Hippos can't swim.",
+        "answer": "False"
+      },
+      {
+        "question": "The currency of Mexico is the peso.",
+        "answer": "True"
+      },
+      {
+        "question": "Mars has more moons than Earth.",
+        "answer": "False"
+      },
+      {
+        "question": "The Earth's magnetic field is generated by the core.",
+        "answer": "True"
+      },
+      {
+        "question": "The Amazon Rainforest produces 20% of the world's oxygen.",
+        "answer": "True"
+      },
+      {
+        "question": "A camel's hump stores water.",
+        "answer": "False"
+      },
+      {
+        "question": "The Great Wall of China was built in the 16th century.",
+        "answer": "False"
+      },
+      {
+        "question": "The iPhone was first released in 2007.",
+        "answer": "True"
+      },
+      {
+        "question": "Jupiter has rings.",
+        "answer": "True"
+      },
+      {
+        "question": "The speed of light is approximately 300,000 kilometers per second.",
+        "answer": "True"
+      },
+      {
+        "question": "The human body has more than 10,000 taste buds.",
+        "answer": "True"
+      },
+      {
+        "question": "The Nile River flows northward.",
+        "answer": "True"
+      }
+    ]
+  }
+  

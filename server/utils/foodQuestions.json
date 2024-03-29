@@ -1,0 +1,286 @@
+[
+    {
+        "question": "The tomato is the world's most consumed fruit.",
+        "answer": "True"
+    },
+    {
+        "question": "Honey never spoils.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'Siberian pea tree' is a variety of pea native to Siberia.",
+        "answer": "False"
+    },
+    {
+        "question": "Peanuts are legumes, not nuts.",
+        "answer": "True"
+    },
+    {
+        "question": "The world's hottest chili pepper is the Carolina Reaper.",
+        "answer": "True"
+    },
+    {
+        "question": "The durian fruit is banned in many hotels and public transportation systems in Southeast Asia due to its strong odor.",
+        "answer": "True"
+    },
+    {
+        "question": "In France, it is illegal to name a pig 'Napoleon'.",
+        "answer": "True"
+    },
+    {
+        "question": "A 'clementine' is a cross between a mandarin and a grapefruit.",
+        "answer": "False"
+    },
+    {
+        "question": "Wasabi, commonly served with sushi, is actually Japanese horseradish.",
+        "answer": "True"
+    },
+    {
+        "question": "Kiwifruit is named after the kiwi bird.",
+        "answer": "False"
+    },
+    {
+        "question": "Pineapples were named after pine cones.",
+        "answer": "True"
+    },
+    {
+        "question": "Chocolate was once used as currency.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'Rubik's Cube' was originally invented as a tool to teach students about three-dimensional space.",
+        "answer": "False"
+    },
+    {
+        "question": "The hottest part of a chili pepper is its seeds.",
+        "answer": "False"
+    },
+    {
+        "question": "Almonds are part of the peach family.",
+        "answer": "True"
+    },
+    {
+        "question": "The average American consumes approximately 18 pounds of bacon per year.",
+        "answer": "True"
+    },
+    {
+        "question": "Pumpkin is a fruit, not a vegetable.",
+        "answer": "True"
+    },
+    {
+        "question": "Lemons contain more sugar than strawberries.",
+        "answer": "False"
+    },
+    {
+        "question": "The 'Miracle Berry' alters taste perception, making sour foods taste sweet.",
+        "answer": "True"
+    },
+    {
+        "question": "Carrots were originally purple.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'Italian plum tomato' is native to Italy.",
+        "answer": "False"
+    },
+    {
+        "question": "Bananas are berries.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'Lamborghini' car company started as a producer of tractors.",
+        "answer": "True"
+    },
+    {
+        "question": "The world's largest hamburger weighed over 3,000 pounds.",
+        "answer": "True"
+    },
+    {
+        "question": "Saffron, one of the world's most expensive spices, comes from the stigma of the crocus flower.",
+        "answer": "True"
+    },
+    {
+        "question": "Rice is the most widely consumed staple food in the world.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'Tangelo' is a hybrid of tangerine and mango.",
+        "answer": "False"
+    },
+    {
+        "question": "The term 'macaroni' comes from the Italian word 'maccare', meaning 'to bruise'.",
+        "answer": "True"
+    },
+    {
+        "question": "A 'grapefruit' is a hybrid of a grape and a fruit.",
+        "answer": "False"
+    },
+    {
+        "question": "The 'Artichoke' is a type of flower bud.",
+        "answer": "True"
+    },
+    {
+        "question": "Mangos are related to poison ivy.",
+        "answer": "True"
+    },
+    {
+        "question": "A 'cantaloupe' is a type of watermelon.",
+        "answer": "False"
+    },
+    {
+        "question": "The term 'cappuccino' originated from the Italian word 'cappuccio', meaning 'hood'.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'McRib' sandwich was created by McDonald's chef, Michael Riboni.",
+        "answer": "False"
+    },
+    {
+        "question": "Cherries are a type of berry.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'French fry' originated in France.",
+        "answer": "False"
+    },
+    {
+        "question": "The 'California roll' was invented in Japan.",
+        "answer": "True"
+    },
+    {
+        "question": "In ancient Rome, 'garum' was a popular condiment made from fermented fish.",
+        "answer": "True"
+    },
+    {
+        "question": "Coconut water can be used as a substitute for blood plasma in emergency situations.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'brussels sprout' is a type of lettuce.",
+        "answer": "False"
+    },
+    {
+        "question": "The 'Hass' avocado is the most common variety of avocado.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'mangosteen' is known as the 'queen of fruits'.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'Alphonso' mango is considered the most flavorful mango variety in the world.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'vanilla bean' comes from an orchid.",
+        "answer": "True"
+    },
+    {
+        "question": "A 'kumquat' is a hybrid of a kumquat and a grapefruit.",
+        "answer": "False"
+    },
+    {
+        "question": "Honey is the only food that does not spoil.",
+        "answer": "False"
+    },
+    {
+        "question": "The 'Lychee' fruit is native to South America.",
+        "answer": "False"
+    },
+    {
+        "question": "The 'McDonald's Filet-O-Fish' was created to appeal to Roman Catholics during Lent.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'Cubanelle pepper' is a variety of banana.",
+        "answer": "False"
+    },
+    {
+        "question": "The 'Braeburn' apple is native to Australia.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'croissant' originated in Austria.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'Cashew nut' grows on the bottom of a fruit called the cashew apple.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'Tamarillo' fruit is native to Africa.",
+        "answer": "False"
+    },
+    {
+        "question": "The 'Vienna sausage' originated in Germany.",
+        "answer": "False"
+    },
+    {
+        "question": "The 'waffle' originated in Belgium.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'turducken' is a dish consisting of a chicken stuffed inside a duck, which is then stuffed inside a turkey.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'hamburger' was invented in Hamburg, Germany.",
+        "answer": "False"
+    },
+    {
+        "question": "The 'chocolate chip cookie' was invented by accident.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'Fortune cookie' originated in China.",
+        "answer": "False"
+    },
+    {
+        "question": "The 'coconut' is classified as a fruit.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'cherry tomato' is a variety of tomato that resembles a cherry.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'baguette' originated in Italy.",
+        "answer": "False"
+    },
+    {
+        "question": "The 'Sriracha' hot sauce originated in Thailand.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'Gala' apple is a variety of apple native to China.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'mango' is the national fruit of India.",
+        "answer": "True"
+    },
+    {
+        "question": "The 'Bloody Mary' cocktail originated in France.",
+        "answer": "False"
+    },
+    {
+        "question": "'Mozzarella' cheese originated in Greece.",
+        "answer": "False"
+    },
+    {
+        "question": "The 'jalapeño' pepper is named after the Spanish word for 'hot'.",
+        "answer": "False"
+    },
+    {
+        "question": "The 'Caesar salad' was invented in Rome, Italy.",
+        "answer": "False"
+    },
+    {
+        "question": "The 'macadamia nut' is native to Australia.",
+        "answer": "True"
+    },
+    {
+        "question": "'Soy sauce' originated in China.",
+        "answer": "True"
+    }
+]

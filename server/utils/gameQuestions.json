@@ -1,0 +1,374 @@
+[
+    {
+        "question": "The original name for the game 'Donkey Kong' was 'Monkey Kong'.",
+        "answer": "True"
+    },
+    {
+        "question": "The highest possible score in Pac-Man is 3,333,360 points.",
+        "answer": "True"
+    },
+    {
+        "question": "The name 'Super Mario' was inspired by Nintendo's landlord, Mario Segale.",
+        "answer": "True"
+    },
+    {
+        "question": "The character Kirby was originally white, but was changed to pink for the North American release of the game.",
+        "answer": "False"
+    },
+    {
+        "question": "The game 'EarthBound' was marketed as 'Mother' in Japan.",
+        "answer": "True"
+    },
+    {
+        "question": "The NES game 'Bubble Bobble' features a hidden cheat code that allows players to skip levels.",
+        "answer": "True"
+    },
+    {
+        "question": "In 'The Legend of Zelda: Ocarina of Time', the Master Sword can be obtained before completing any dungeons.",
+        "answer": "False"
+    },
+    {
+        "question": "The character Samus Aran from 'Metroid' was originally intended to be male.",
+        "answer": "False"
+    },
+    {
+        "question": "The first video game to feature a save feature was 'The Legend of Zelda' for the NES.",
+        "answer": "True"
+    },
+    {
+        "question": "The voice actor for the character Duke Nukem also voiced the character Big the Cat in 'Sonic Adventure'.",
+        "answer": "True"
+    },
+    {
+        "question": "The game 'Space Invaders' was responsible for a temporary shortage of 100-yen coins in Japan.",
+        "answer": "True"
+    },
+    {
+        "question": "The character Sonic the Hedgehog was originally going to be a rabbit.",
+        "answer": "True"
+    },
+    {
+        "question": "In 'Mega Man', the character's original name was 'Rainbow Man'.",
+        "answer": "False"
+    },
+    {
+        "question": "The first video game to feature a character jumping was 'Donkey Kong'.",
+        "answer": "False"
+    },
+    {
+        "question": "The original arcade version of 'Pac-Man' had 256 levels.",
+        "answer": "True"
+    },
+    {
+        "question": "The game 'Doom' was initially titled 'Alien Wars'.",
+        "answer": "False"
+    },
+    {
+        "question": "The character Lara Croft from 'Tomb Raider' was inspired by a comic book character.",
+        "answer": "False"
+    },
+    {
+        "question": "The first game to feature a hidden 'Easter egg' was 'Adventure' for the Atari 2600.",
+        "answer": "True"
+    },
+    {
+        "question": "The character Pac-Man was originally named 'Puck-Man'.",
+        "answer": "True"
+    },
+    {
+        "question": "The game 'Final Fantasy VII' was originally planned for the Super Nintendo Entertainment System (SNES).",
+        "answer": "True"
+    },
+    {
+        "question": "The character Link from 'The Legend of Zelda' series is left-handed.",
+        "answer": "True"
+    },
+    {
+        "question": "The original name for the game 'Sonic the Hedgehog' was 'Feel the Rabbit'.",
+        "answer": "False"
+    },
+    {
+        "question": "The game 'Tetris' was created by a Russian game designer.",
+        "answer": "True"
+    },
+    {
+        "question": "In 'Super Mario Bros.', Mario was originally a carpenter, not a plumber.",
+        "answer": "True"
+    },
+    {
+        "question": "The game 'Street Fighter II' was the first to introduce combo attacks.",
+        "answer": "False"
+    },
+    {
+        "question": "The original name for the game 'Mega Man' was 'Super Man'.",
+        "answer": "False"
+    },
+    {
+        "question": "The character Kirby is named after the lawyer who defended Nintendo in a copyright lawsuit.",
+        "answer": "False"
+    },
+    {
+        "question": "The main character of 'Half-Life' is named Gordon Ramsay.",
+        "answer": "False"
+    },
+    {
+        "question": "The first game to feature a playable female character was 'Ms. Pac-Man'.",
+        "answer": "False"
+    },
+    {
+        "question": "The character Pikachu from 'Pokémon' was originally going to be a yellow rabbit.",
+        "answer": "True"
+    },
+    {
+        "question": "The game 'Sonic the Hedgehog' was originally intended to showcase the capabilities of the Sega Genesis hardware.",
+        "answer": "True"
+    },
+    {
+        "question": "The main character of 'Metal Gear Solid' is named Solid Snake because of his fear of snakes.",
+        "answer": "False"
+    },
+    {
+        "question": "The original name for the game 'Mortal Kombat' was 'Violent Warriors'.",
+        "answer": "True"
+    },
+    {
+        "question": "The character Pikachu was originally going to be called 'Cappy'.",
+        "answer": "True"
+    },
+    {
+        "question": "The game 'Super Mario Bros.' was released before 'The Legend of Zelda'.",
+        "answer": "True"
+    },
+    {
+        "question": "The character Yoshi from 'Super Mario Bros.' was originally going to be a turtle.",
+        "answer": "True"
+    },
+    {
+        "question": "The first video game to feature a secret level was 'Super Mario Bros.'",
+        "answer": "False"
+    },
+    {
+        "question": "The character Solid Snake from 'Metal Gear Solid' is named after a real-life soldier.",
+        "answer": "True"
+    },
+    {
+        "question": "The game 'Minecraft' was initially called 'Cave Game'.",
+        "answer": "True"
+    },
+    {
+        "question": "The first game to feature a female protagonist was 'Metroid'.",
+        "answer": "False"
+    },
+    {
+        "question": "The character Link from 'The Legend of Zelda' series is mute.",
+        "answer": "True"
+    },
+    {
+        "question": "The original name for the game 'Sonic the Hedgehog' was 'Speedy Gonzales'.",
+        "answer": "False"
+    },
+    {
+        "question": "The game 'Grand Theft Auto' was originally developed by Nintendo for the Nintendo 64 console.",
+        "answer": "True"
+    },
+    {
+        "question": "The main character of 'Final Fantasy VII' is named Cloud Strife because of his turbulent past.",
+        "answer": "True"
+    },
+    {
+        "question": "The first game to feature a 'boss battle' was 'Space Invaders'.",
+        "answer": "False"
+    },
+    {
+        "question": "The character Chun-Li from 'Street Fighter II' was the first playable female character in a fighting game.",
+        "answer": "True"
+    },
+    {
+        "question": "The game 'The Legend of Zelda: A Link to the Past' was originally planned for the Game Boy.",
+        "answer": "True"
+    },
+    {
+        "question": "The character Fox McCloud from 'Star Fox' was originally intended to be a frog.",
+        "answer": "False"
+    },
+    {
+        "question": "The game 'Tetris' was originally created on an Apple II computer.",
+        "answer": "False"
+    },
+    {
+        "question": "The character Donkey Kong was originally going to be a gorilla.",
+        "answer": "True"
+    },
+    {
+        "question": "The first game to feature a 'power-up' was 'Super Mario Bros.'",
+        "answer": "False"
+    },
+    {
+        "question": "The character Mario was named after Nintendo's janitor, Mario Segale.",
+        "answer": "True"
+    },
+    {
+        "question": "The original name for the game 'Pokémon' was 'Pocket Monsters'.",
+        "answer": "True"
+    },
+    {
+        "question": "The character Pikachu was inspired by the creator's childhood pet hamster.",
+        "answer": "False"
+    },
+    {
+        "question": "The main character of 'Final Fantasy VII' is named Cloud Strife because of his bright personality.",
+        "answer": "False"
+    },
+    {
+        "question": "The game 'Doom' was originally developed as a licensed game based on the 'Alien' film franchise.",
+        "answer": "True"
+    },
+    {
+        "question": "The original name for the game 'Sonic the Hedgehog' was 'Feel the Rabbit'.",
+        "answer": "False"
+    },
+    {
+        "question": "The character Mario was originally known as 'Jumpman'.",
+        "answer": "True"
+    },
+    {
+        "question": "The game 'Metroid' was inspired by the film 'Alien'.",
+        "answer": "True"
+    },
+    {
+        "question": "The main character of 'Metal Gear Solid' is named Solid Snake because of his rigid personality.",
+        "answer": "False"
+    },
+    {
+        "question": "The first game to feature a 'multiplayer mode' was 'Pong'.",
+        "answer": "False"
+    },
+    {
+        "question": "The character Samus Aran from 'Metroid' was originally intended to be male.",
+        "answer": "False"
+    },
+    {
+        "question": "The first game to feature 'in-game dialogue' was 'Adventure' for the Atari 2600.",
+        "answer": "True"
+    },
+    {
+        "question": "The character Pikachu was originally going to be a blue squirrel.",
+        "answer": "False"
+    },
+    {
+        "question": "The game 'Minecraft' was created by a team of Swedish developers.",
+        "answer": "True"
+    },
+    {
+        "question": "The character Sonic the Hedgehog was inspired by a real-life hedgehog named 'Sonic'.",
+        "answer": "False"
+    },
+    {
+        "question": "The original name for the game 'Sonic the Hedgehog' was 'Fast Hedgehog'.",
+        "answer": "True"
+    },
+    {
+        "question": "The game 'Final Fantasy VII' was the first in the series to use 3D graphics.",
+        "answer": "True"
+    },
+    {
+        "question": "The character Mario was originally a carpenter, but was changed to a plumber because of the game's setting.",
+        "answer": "True"
+    },
+    {
+        "question": "The game 'Super Mario Bros.' was released before 'Donkey Kong'.",
+        "answer": "False"
+    },
+    {
+        "question": "The character Sonic the Hedgehog was originally going to be red.",
+        "answer": "True"
+    },
+    {
+        "question": "The original name for the game 'Street Fighter II' was 'Street Fighter'.",
+        "answer": "True"
+    },
+    {
+        "question": "The main character of 'Final Fantasy VII' is named Cloud Strife because of his mysterious past.",
+        "answer": "True"
+    },
+    {
+        "question": "The game 'Pokémon Red and Blue' was released on the Game Boy Color.",
+        "answer": "False"
+    },
+    {
+        "question": "The character Donkey Kong was originally going to be a donkey.",
+        "answer": "False"
+    },
+    {
+        "question": "The game 'Minecraft' was initially created as a mod for 'Half-Life 2'.",
+        "answer": "False"
+    },
+    {
+        "question": "The character Kirby was inspired by a pink marshmallow candy.",
+        "answer": "False"
+    },
+    {
+        "question": "The original name for the game 'Super Mario Bros.' was 'Jumpman'.",
+        "answer": "False"
+    },
+    {
+        "question": "The game 'The Legend of Zelda' was inspired by creator Shigeru Miyamoto's childhood adventures in the forests of Kyoto.",
+        "answer": "True"
+    },
+    {
+        "question": "The character Pikachu was originally going to be called 'Sparky'.",
+        "answer": "True"
+    },
+    {
+        "question": "The game 'Half-Life' was originally intended to be a mod for 'Doom'.",
+        "answer": "False"
+    },
+    {
+        "question": "The character Samus Aran from 'Metroid' was inspired by the film 'Aliens'.",
+        "answer": "True"
+    },
+    {
+        "question": "The game 'Tetris' was developed in Japan.",
+        "answer": "False"
+    },
+    {
+        "question": "The character Sonic the Hedgehog was originally going to be named 'Mr. Needlemouse'.",
+        "answer": "True"
+    },
+    {
+        "question": "The main character of 'Final Fantasy VII' is named Cloud Strife because of his desire for revenge.",
+        "answer": "False"
+    },
+    {
+        "question": "The original name for the game 'Sonic the Hedgehog' was 'Speedy Hedgehog'.",
+        "answer": "False"
+    },
+    {
+        "question": "The game 'Super Mario Bros.' was released in 1984.",
+        "answer": "False"
+    },
+    {
+        "question": "The character Kirby was originally intended to be a villain.",
+        "answer": "True"
+    },
+    {
+        "question": "The original name for the game 'Pac-Man' was 'Puck-Man'.",
+        "answer": "True"
+    },
+    {
+        "question": "The main character of 'Final Fantasy VII' is named Cloud Strife because of his love for adventure.",
+        "answer": "True"
+    },
+    {
+        "question": "The game 'Sonic the Hedgehog' was originally developed for the Sega Saturn console.",
+        "answer": "False"
+    },
+    {
+        "question": "The character Sonic the Hedgehog was inspired by a real-life hedgehog named 'Felix'.",
+        "answer": "False"
+    },
+    {
+        "question": "The original name for the game 'Super Mario Bros.' was 'Mario Bros.'",
+        "answer": "False"
+    }
+]

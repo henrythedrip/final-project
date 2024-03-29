@@ -1,3 +1,0 @@
-## Truth-False-Or-Die
-
-# 

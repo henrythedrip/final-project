@@ -18,4 +18,10 @@ type User {
     email: String
     password: String
 }
+
+type Score {
+    _id: ID
+    
+}
 `
+module.exports = typeDefs;

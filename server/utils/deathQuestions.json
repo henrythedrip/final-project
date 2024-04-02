@@ -1,294 +1,294 @@
 [
     {
         "question": "Death is the cessation of all biological functions that sustain a living organism.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "The leading cause of death worldwide is heart disease.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Sudden cardiac arrest is the same as a heart attack.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "Asphyxiation is a common cause of death in drowning incidents.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Hypothermia occurs when the body loses heat faster than it can produce it, resulting in a dangerously low body temperature.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Cancer is a leading cause of death globally.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Alzheimer's disease is always fatal.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "The brain continues to function for a brief period after the heart stops beating.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "In most cases, a coroner determines the cause of death.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Homicide is the leading cause of death among young adults.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "The average human lifespan has increased significantly over the past century due to advancements in healthcare and technology.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "An autopsy is always performed to determine the cause of death.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "Terminal illnesses are always painful for the individual experiencing them.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "In many cultures, death is viewed as the end of existence.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Euthanasia is legal in all countries.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "Suicide rates tend to be higher among certain demographic groups, such as adolescents and the elderly.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "An individual in a vegetative state is considered clinically dead.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "Most deaths occur during the daytime.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "In some cases, organ donation can occur after death.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "A death certificate is issued by a medical professional to officially record the cause and manner of death.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "In some cultures, death is celebrated as a natural part of life.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "An individual who is brain dead is considered legally and medically deceased.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "In many societies, mourning customs and rituals are observed following a death.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Infant mortality rates have decreased significantly in recent decades.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Death anxiety is a universal human experience.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "A living will can specify an individual's wishes regarding medical treatment in the event of terminal illness or incapacitation.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "A post-mortem examination is another term for an autopsy.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "The leading cause of death in children under five years old globally is malnutrition.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Heart failure is always fatal.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "In the United States, the month with the highest number of deaths typically occurs during the winter season.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "In some cultures, death is believed to be a transition to another form of existence.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "A death row inmate in the United States is typically executed by lethal injection.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Drowning is always a painful way to die.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "The leading cause of death in the world for individuals aged 15-29 is road traffic accidents.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Old age is classified as a cause of death in medical terms.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "In some cultures, death is personified as a deity or figure.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Death rates from infectious diseases have significantly declined in developed countries.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "A death certificate typically includes information such as the deceased person's name, date of birth, and cause of death.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Resuscitation efforts are always successful in bringing a person back to life.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "In some cases, a person can experience clinical death and be revived.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "A miscarriage is considered a form of death.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "The fear of death is known as necrophobia.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "Dying of old age is a medically recognized cause of death.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "A deathbed confession is always considered credible.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "Death rates from infectious diseases tend to be higher in developing countries with limited access to healthcare.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Accidental drug overdoses are a leading cause of death among young adults.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "In some cultures, death is believed to be a journey to the afterlife.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "The leading cause of death in children under five years old in developed countries is congenital anomalies.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "A death rattle is a sign that someone is near death.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Epidemics can result in a significant increase in death rates within a population.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "The process of decomposition begins immediately after death.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "In some cultures, death is believed to be the end of physical existence but not the end of consciousness.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Suffocation is always caused by a lack of oxygen.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "An accidental death is always considered a tragedy.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "The concept of euthanasia refers to intentionally ending a life to relieve suffering.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Death rates tend to be higher during times of war and conflict.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "In some cultures, death is believed to be a natural part of the cycle of life and rebirth.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "An individual who dies by suicide is always suffering from mental illness.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "In some cases, a person can experience an out-of-body experience during a near-death experience.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "A death mask is a mold taken from a person's face after death.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Death rates from heart disease tend to be higher in developed countries with poor access to healthcare.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "In some cultures, death is believed to be a transition to the spirit world.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "A person can legally be declared dead even if their body is never found.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "The concept of reincarnation involves the belief that the soul is reborn into a new body after death.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Death rates from preventable diseases are higher in populations with inadequate access to healthcare.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Death rates from natural disasters have increased in recent decades.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "A death certificate is always issued immediately after death.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "In some cultures, death is believed to be the result of supernatural forces or curses.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "Death rates from infectious diseases tend to be higher in urban areas.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "A stillborn birth is classified as a death in medical terms.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "The concept of brain death is universally accepted across all cultures and religions.",
-        "answer": "False"
+        "answer": false
     },
     {
         "question": "Death rates from certain diseases, such as malaria and tuberculosis, are higher in developing countries.",
-        "answer": "True"
+        "answer": true
     },
     {
         "question": "If you hack my website I am gonna kill you.",
-        "answer": "True"
+        "answer": true
     }
 ]

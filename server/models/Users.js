@@ -4,15 +4,15 @@ const scoreSchema = require('./Scores');
 
 const userSchema = new Schema({
     username: {
-        type: STRING,
+        type: String,
         required: true,
     },
     email: {
-        type: STRING,
+        type: String,
         required: true,
     },
     password: {
-        type: STRING,
+        type: String,
         required: true,
     },
     scores: [

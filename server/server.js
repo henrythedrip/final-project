@@ -1,10 +1,9 @@
 const express = require('express');
 const {ApolloServer} = require('@apollo/server');
 const {expressMiddleware} = require('@apollo/server/express4');
+const { typeDefs, resolvers } = require('./schemas');
 const path = require('path');
 
-//need resolvers and type defs in folder schema
-const{typeDefs, resolvers} = require('./schemas')
 const db = require('./config/connection');
 
 const PORT = process.env.PORT || 3001;

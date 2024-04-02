@@ -19,7 +19,17 @@ const typeDefs = gql`
     username: String
     email: String
     password: String
-  }
+    scores: [Score]
+
+}
+
+type Score {
+    _id: ID
+    category: [Category]
+    score: Int
+    
+}
+
 
   type Query {
     question(questionId: ID!): Question
@@ -34,5 +44,6 @@ const typeDefs = gql`
     removeCategory(categoryId: ID!): Category
   }
 `;
+
 
 module.exports = typeDefs;

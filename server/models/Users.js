@@ -14,5 +14,5 @@ const userSchema = new Schema({
         required: true,
     },
 })
-const Question = model('Question', questionSchema)
-module.exports = Question
+const User = model('User', userSchema)
+module.exports = User

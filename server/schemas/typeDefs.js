@@ -37,7 +37,7 @@ type Score {
   }
 
   type Mutation {
-
+addScore(id: ID!, score:[Score]): User
   }
 `;
 

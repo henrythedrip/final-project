@@ -1,0 +1,35 @@
+[
+    {
+      "name": "Animals",
+      "setOfQuestions": []
+    },
+    {
+      "name": "History",
+      "setOfQuestions": []
+    },
+    {
+        "name": "Death",
+        "setOfQuestions": []
+    },
+    {
+        "name": "Food",
+        "setOfQuestions": []
+    },
+    {
+        "name": "Game",
+        "setOfQuestions": []
+    },
+    {
+        "name": "General",
+        "setOfQuestions": []
+    },
+    {
+        "name": "Law",
+        "setOfQuestions": []
+    },
+    {
+        "name": "Sports",
+        "setOfQuestions": []
+    }
+]
+  

@@ -1,4 +1,5 @@
 const { Question, User, Category } = require('../models');
+const {signToken, AuthenticationError} = require('../utils/auth');
 
 const resolvers = {
 
@@ -27,30 +28,35 @@ const resolvers = {
   //end of Queries
 
   Mutation: {
-    // addUser: async (parent, { username, email, password}) => {
 
-    //   const user = await User.create({ username, email, password});
-    //   const token = signToken(user);
+    //Adds User
+    addUser: async (parent, { username, email, password}) => {
 
-    //   return {token, user};
-    // },
-    // login: async (parent, { email, password }) => {
-    //   const user = await User.findOne({email});
+      const user = await User.create({ username, email, password});
+      const token = signToken(user);
 
-    //   if(!user){
-    //     throw AuthenticationError
-    //   }
+      return {token, user};
+    },
 
-    //   const correctPw = await user.isCorrectPassword(password);
+    //Handles login
+    login: async (parent, { email, password }) => {
+      const user = await User.findOne({email});
 
-    //   if(!correctPw){
-    //     throw  AuthenticationError
-    //   }
+      if(!user){
+        throw AuthenticationError
+      }
 
-    //   const token = signToken(user);
-    //   return{token, user}
-    // }
+      const correctPw = await user.isCorrectPassword(password);
 
+      if(!correctPw){
+        throw  AuthenticationError
+      }
+
+      const token = signToken(user);
+      return{token, user}
+    },
+
+    
     addScore: async (parent, {id, score}) => {
       return User.findOneAndUpdate(
         {_id: id},

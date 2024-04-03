@@ -28,6 +28,11 @@ type Score {
     
 }
 
+type Auth {
+  token: ID!
+  profile: Profile
+}
+
 
   type Query {
   categories: [Category]
@@ -37,7 +42,10 @@ type Score {
   }
 
   type Mutation {
-addScore(id: ID!, score:[Score]): User
+    addUser(username:String!, email:String!, password:String!): Auth
+    login(email:String!, password: String!): Auth
+    
+    addScore(id: ID!, score:Score): User
   }
 `;
 

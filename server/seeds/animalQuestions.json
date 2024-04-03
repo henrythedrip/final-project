@@ -1,0 +1,287 @@
+[
+    {
+      "question": "Penguins can fly.",
+      "answer": false
+    },
+    {
+      "question": "All snakes are venomous.",
+      "answer": false
+      
+    },
+    {
+      "question": "Owls are the only birds that can see the color blue.",
+      "answer": true
+    },
+    {
+      "question": "Sharks can't get cancer.",
+      "answer": false
+    },
+    {
+      "question": "The honeybee is the only insect that produces food eaten by humans.",
+      "answer": true
+    },
+    {
+      "question": "Giraffes have the same number of neck vertebrae as humans.",
+      "answer": true
+    },
+    {
+      "question": "Alligators can live up to 100 years.",
+      "answer": true
+    },
+    {
+      "question": "Elephants are the only mammals that can't jump.",
+      "answer": true
+    },
+    {
+      "question": "Bats are blind.",
+      "answer": false
+    },
+    {
+      "question": "A group of flamingos is called a 'flamboyance.'",
+      "answer": true
+    },
+    {
+      "question": "All polar bears are left-handed.",
+      "answer": false
+    },
+    {
+      "question": "Kangaroos can only hop backwards.",
+      "answer": false
+    },
+    {
+      "question": "Koalas sleep for 22 hours a day.",
+      "answer": false
+    },
+    {
+      "question": "A female ferret will die if it doesn't mate.",
+      "answer": true
+    },
+    {
+      "question": "Dogs can only see in black and white.",
+      "answer": false
+    },
+    {
+      "question": "A starfish has 5 hearts.",
+      "answer": false
+    },
+    {
+      "question": "The average housefly lives for about one month.",
+      "answer": true
+    },
+    {
+      "question": "A snail can sleep for 3 years.",
+      "answer": true
+    },
+    {
+      "question": "A group of crows is called a 'murder.'",
+      "answer": true
+    },
+    {
+      "question": "Cheetahs can accelerate from 0 to 60 mph faster than a sports car.",
+      "answer": true
+    },
+    {
+      "question": "The fingerprints of a koala are virtually indistinguishable from those of a human.",
+      "answer": true
+    },
+    {
+      "question": "A tarantula can live without food for more than two years.",
+      "answer": true
+    },
+    {
+      "question": "A female lion does most of the hunting for her pride.",
+      "answer": true
+    },
+    {
+      "question": "The blue whale is the largest animal to ever live on Earth.",
+      "answer": true
+    },
+    {
+      "question": "A group of owls is called a 'parliament.'",
+      "answer": true
+    },
+    {
+      "question": "Dolphins sleep with one eye open.",
+      "answer": true
+    },
+    {
+      "question": "Chameleons change color to blend in with their surroundings.",
+      "answer": false
+    },
+    {
+      "question": "A crocodile can't stick its tongue out.",
+      "answer": true
+    },
+    {
+      "question": "Cows have best friends.",
+      "answer": true
+    },
+    {
+      "question": "Octopuses have three hearts.",
+      "answer": true
+    },
+    {
+      "question": "There are more species of fish than mammals, birds, reptiles, and amphibians combined.",
+      "answer": true
+    },
+    {
+      "question": "A woodpecker can peck 20 times per second.",
+      "answer": true
+    },
+    {
+      "question": "Pandas eat bamboo because they can't digest meat.",
+      "answer": false
+    },
+    {
+      "question": "A shrimp's heart is in its head.",
+      "answer": true
+    },
+    {
+      "question": "Cats have fewer toes on their back paws than on their front paws.",
+      "answer": false
+    },
+    {
+      "question": "Oysters can change gender depending on which is best for mating.",
+      "answer": true
+    },
+    {
+      "question": "The electric eel can produce a shock of up to 600 volts.",
+      "answer": true
+    },
+    {
+      "question": "Tigers have striped skin, not just striped fur.",
+      "answer": true
+    },
+    {
+      "question": "A lobster's blood is colorless until exposed to oxygen, at which point it turns blue.",
+      "answer": true
+    },
+    {
+      "question": "Seahorses mate for life.",
+      "answer": true
+    },
+    {
+      "question": "Sloths only poop once a week.",
+      "answer": true
+    },
+    {
+      "question": "The average house cat can run faster than Usain Bolt.",
+      "answer": true
+    },
+    {
+      "question": "Hummingbirds are the only birds that can fly backwards.",
+      "answer": true
+    },
+    {
+      "question": "The heart of a shrimp is located in its head.",
+      "answer": true
+    },
+    {
+      "question": "A goldfish has a memory span of three seconds.",
+      "answer": false
+    },
+    {
+      "question": "Bats are mammals, not birds.",
+      "answer": true
+    },
+    {
+      "question": "Mosquitoes are attracted to the color blue more than any other color.",
+      "answer": false
+    },
+    {
+      "question": "African elephants have bigger ears than Asian elephants.",
+      "answer": true
+    },
+    {
+      "question": "A group of whales is called a 'pod.'",
+      "answer": true
+    },
+    {
+      "question": "There are more chickens than people in the world.",
+      "answer": true
+    },
+    {
+      "question": "A narwhal's tusk is actually a tooth.",
+      "answer": true
+    },
+    {
+      "question": "The average lifespan of a housefly is one month.",
+      "answer": true
+    },
+    {
+      "question": "A male emperor penguin carries the egg after the female lays it.",
+      "answer": true
+    },
+    {
+      "question": "Polar bears' skin is black.",
+      "answer": true
+    },
+    {
+      "question": "Kangaroos can't walk backwards.",
+      "answer": true
+    },
+    {
+      "question": "A cat has 32 muscles in each ear.",
+      "answer": true
+    },
+    {
+      "question": "A male seahorse gives birth.",
+      "answer": true
+    },
+    {
+      "question": "A tarantula can survive without food for more than two years.",
+      "answer": true
+    },
+    {
+      "question": "A rhinoceros' horn is made of hair.",
+      "answer": true
+    },
+    {
+      "question": "Butterflies can taste with their feet.",
+      "answer": true
+    },
+    {
+      "question": "Gorillas can catch human colds and other illnesses.",
+      "answer": true
+    },
+    {
+      "question": "A jellyfish is 95% water.",
+      "answer": true
+    },
+    {
+      "question": "A hippopotamus can run faster than a human.",
+      "answer": true
+    },
+    {
+      "question": "There are more than 500 million domestic cats in the world.",
+      "answer": true
+    },
+    {
+      "question": "A male lion sleeps for about 20 hours a day.",
+      "answer": true
+    },
+    {
+      "question": "Honey never spoils.",
+      "answer": true
+    },
+    {
+      "question": "A praying mantis can turn its head 360 degrees.",
+      "answer": true
+    },
+    {
+      "question": "A male giraffe drinks the urine of the female giraffe to know if she is fertile.",
+      "answer": true
+    },
+    {
+      "question": "Male seahorses carry the babies.",
+      "answer": true
+    },
+    {
+      "question": "A blue whale's tongue weighs as much as an elephant.",
+      "answer": true
+    },
+    {
+      "question": "Dogs sweat through their tongues.",
+      "answer": true
+    }
+  ]

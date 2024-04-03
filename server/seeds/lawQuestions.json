@@ -1,0 +1,383 @@
+
+   [
+      {
+        "question": "Crime rates have been steadily increasing over the past decade.",
+        "answer": false
+      },
+      {
+        "question": "A misdemeanor is a more serious offense than a felony.",
+        "answer": false
+      },
+      {
+        "question": "Homicide is the leading cause of death among young people in many countries.",
+        "answer": true
+      },
+      {
+        "question": "Identity theft is a type of cybercrime.",
+        "answer": true
+      },
+      {
+        "question": "Burglary involves breaking into a building with the intent to commit a crime.",
+        "answer": true
+      },
+      {
+        "question": "White-collar crime typically involves violence or physical harm.",
+        "answer": false
+      },
+      {
+        "question": "A crime of passion is premeditated.",
+        "answer": false
+      },
+      {
+        "question": "Punishment for crimes can include fines, imprisonment, or both.",
+        "answer": true
+      },
+      {
+        "question": "Shoplifting is considered a violent crime.",
+        "answer": false
+      },
+      {
+        "question": "Recidivism refers to the likelihood of a convicted criminal to reoffend.",
+        "answer": true
+      },
+      {
+        "question": "Most crime in developed countries is committed by juveniles.",
+        "answer": false
+      },
+      {
+        "question": "Assault is the act of threatening someone with physical harm.",
+        "answer": true
+      },
+      {
+        "question": "Arson is the deliberate act of setting fire to property.",
+        "answer": true
+      },
+      {
+        "question": "Stalking is not considered a criminal offense in most jurisdictions.",
+        "answer": false
+      },
+      {
+        "question": "Vandalism involves damaging or destroying property.",
+        "answer": true
+      },
+      {
+        "question": "Perjury is lying under oath in a court of law.",
+        "answer": true
+      },
+      {
+        "question": "Extortion involves the use of force to obtain money or property.",
+        "answer": false
+      },
+      {
+        "question": "Drug trafficking is a non-violent crime.",
+        "answer": false
+      },
+      {
+        "question": "Forgery involves the unauthorized copying or alteration of documents.",
+        "answer": true
+      },
+      {
+        "question": "Embezzlement is the fraudulent conversion of property by a person to whom it has been entrusted.",
+        "answer": true
+      },
+      {
+        "question": "Money laundering is the process of making illegally obtained money appear legitimate.",
+        "answer": true
+      },
+      {
+        "question": "A hate crime is a criminal offense motivated by bias against a particular race, religion, sexual orientation, etc.",
+        "answer": true
+      },
+      {
+        "question": "A plea bargain is an agreement between a prosecutor and defendant where the defendant pleads guilty to a lesser charge.",
+        "answer": true
+      },
+      {
+        "question": "Involuntary manslaughter is the unlawful killing of another person without malice aforethought.",
+        "answer": true
+      },
+      {
+        "question": "A restraining order is a legal order issued by a court to protect someone from being harmed by another person.",
+        "answer": true
+      },
+      {
+        "question": "Perjury is punishable by imprisonment in most jurisdictions.",
+        "answer": true
+      },
+      {
+        "question": "Assault and battery are the same thing.",
+        "answer": false
+      },
+      {
+        "question": "Computer hacking is not considered a crime.",
+        "answer": false
+      },
+      {
+        "question": "Conspiracy is a crime that involves planning to commit another crime.",
+        "answer": true
+      },
+      {
+        "question": "A citizen's arrest is the apprehension of a person by a private citizen.",
+        "answer": true
+      },
+      {
+        "question": "Domestic violence only occurs between spouses.",
+        "answer": false
+      },
+      {
+        "question": "Vehicular homicide is a crime that involves the killing of another person using a vehicle.",
+        "answer": true
+      },
+      {
+        "question": "Jury tampering is the crime of influencing a jury to return a verdict that is favorable to the tamperer.",
+        "answer": true
+      },
+      {
+        "question": "A hit-and-run is the act of leaving the scene of an accident without stopping to provide assistance.",
+        "answer": true
+      },
+      {
+        "question": "Insider trading is a legal practice in the stock market.",
+        "answer": false
+      },
+      {
+        "question": "Bribery is the offering of something of value in exchange for influence or action in one's favor.",
+        "answer": true
+      },
+      {
+        "question": "A hate crime must involve physical violence.",
+        "answer": false
+      },
+      {
+        "question": "Perjury is only a crime if committed in a court of law.",
+        "answer": false
+      },
+      {
+        "question": "Manslaughter is the unintentional killing of another person.",
+        "answer": true
+      },
+      {
+        "question": "Obstruction of justice is the crime of impeding the administration of law.",
+        "answer": true
+      },
+      {
+        "question": "A hitman is someone who commits murders for hire.",
+        "answer": true
+      },
+      {
+        "question": "Kidnapping is the unlawful transportation, restraint, or confinement of a person against their will.",
+        "answer": true
+      },
+      {
+        "question": "Perjury can only occur in a courtroom setting.",
+        "answer": false
+      },
+      {
+        "question": "A misdemeanor is a less serious offense than a felony.",
+        "answer": true
+      },
+      {
+        "question": "Robbery is the act of unlawfully taking property from someone's person by force or threat of force.",
+        "answer": true
+      },
+      {
+        "question": "An accessory to a crime is someone who assists in the commission of a crime but does not actually commit it.",
+        "answer": true
+      },
+      {
+        "question": "Arson is the leading cause of fires in urban areas.",
+        "answer": true
+      },
+      {
+        "question": "Stalking is not considered a crime in most jurisdictions.",
+        "answer": false
+      },
+      {
+        "question": "A plea bargain can only be offered to the defendant by the prosecutor.",
+        "answer": false
+      },
+      {
+        "question": "Fraud involves deception for financial gain.",
+        "answer": true
+      },
+      {
+        "question": "Identity theft is a victimless crime.",
+        "answer": false
+      },
+      {
+        "question": "Money laundering is the illegal process of concealing the origins of money obtained unlawfully.",
+        "answer": true
+      },
+      {
+        "question": "A juvenile delinquent is a minor who commits a criminal offense.",
+        "answer": true
+      },
+      {
+        "question": "Terrorism is defined as the unlawful use of violence and intimidation, especially against civilians, in the pursuit of political aims.",
+        "answer": true
+      },
+      {
+        "question": "An alibi is a defense used in court to prove innocence.",
+        "answer": true
+      },
+      {
+        "question": "Blackmail is the crime of threatening to reveal damaging information about someone unless they comply with demands.",
+        "answer": true
+      },
+      {
+        "question": "Entrapment is the act of tricking someone into committing a crime they would not have otherwise committed.",
+        "answer": true
+      },
+      {
+        "question": "Vandalism is considered a victimless crime.",
+        "answer": false
+      },
+      {
+        "question": "A search warrant is required for police to search a person's property.",
+        "answer": true
+      },
+      {
+        "question": "Sexual assault is a crime involving unwanted sexual contact or behavior.",
+        "answer": true
+      },
+      {
+        "question": "Forgery involves the use of force to obtain money or property.",
+        "answer": false
+      },
+      {
+        "question": "A hate crime is any criminal offense committed with hatred or bias against a particular group.",
+        "answer": true
+      },
+      {
+        "question": "A crime scene investigator collects and analyzes physical evidence from crime scenes.",
+        "answer": true
+      },
+      {
+        "question": "Jury nullification is the act of a jury disregarding the law and acquitting a defendant regardless of guilt.",
+        "answer": true
+      },
+      {
+        "question": "Impersonating a police officer is not considered a crime.",
+        "answer": false
+      },
+      {
+        "question": "A search warrant is required for police to search a person's body.",
+        "answer": true
+      },
+      {
+        "question": "A crime is an act that violates a law and is punishable by a fine, imprisonment, or both.",
+        "answer": true
+      },
+      {
+        "question": "Fraudulent conversion of property is known as embezzlement.",
+        "answer": true
+      },
+      {
+        "question": "A serial killer is someone who kills multiple people over a period of time.",
+        "answer": true
+      },
+      {
+        "question": "Stalking is the act of following someone to gather information about their activities.",
+        "answer": false
+      },
+      {
+        "question": "Assault and battery are the same offense.",
+        "answer": false
+      },
+      {
+        "question": "Extortion is the act of obtaining something, especially money, through force or threats.",
+        "answer": true
+      },
+      {
+        "question": "Robbery is a property crime.",
+        "answer": false
+      },
+      {
+        "question": "Computer hacking is considered a victimless crime.",
+        "answer": false
+      },
+      {
+        "question": "A hate crime is any criminal offense committed against a person's race, religion, sexual orientation, etc., motivated by bias.",
+        "answer": true
+      },
+      {
+        "question": "A restraining order is a court order prohibiting someone from doing something.",
+        "answer": true
+      },
+      {
+        "question": "Stalking is a misdemeanor offense.",
+        "answer": false
+      },
+      {
+        "question": "Perjury is only a crime if committed in court.",
+        "answer": false
+      },
+      {
+        "question": "Arson is the most common type of property crime.",
+        "answer": false
+      },
+      {
+        "question": "A plea bargain is an agreement between a defendant and prosecutor where the defendant pleads guilty to a lesser charge.",
+        "answer": true
+      },
+      {
+        "question": "Bribery is the crime of offering something of value in exchange for influence or action.",
+        "answer": true
+      },
+      {
+        "question": "Conspiracy is a crime that involves planning to commit another crime.",
+        "answer": true
+      },
+      {
+        "question": "A citizen's arrest is the apprehension of a person by a private citizen.",
+        "answer": true
+      },
+      {
+        "question": "Domestic violence only occurs between spouses.",
+        "answer": false
+      },
+      {
+        "question": "Vehicular homicide is a crime that involves the killing of another person using a vehicle.",
+        "answer": true
+      },
+      {
+        "question": "Jury tampering is the crime of influencing a jury to return a verdict that is favorable to the tamperer.",
+        "answer": true
+      },
+      {
+        "question": "A hit-and-run is the act of leaving the scene of an accident without stopping to provide assistance.",
+        "answer": true
+      },
+      {
+        "question": "Insider trading is a legal practice in the stock market.",
+        "answer": false
+      },
+      {
+        "question": "Bribery is the offering of something of value in exchange for influence or action in one's favor.",
+        "answer": true
+      },
+      {
+        "question": "A hate crime must involve physical violence.",
+        "answer": false
+      },
+      {
+        "question": "Perjury is punishable by imprisonment in most jurisdictions.",
+        "answer": true
+      },
+      {
+        "question": "Manslaughter is the unintentional killing of another person.",
+        "answer": true
+      },
+      {
+        "question": "Obstruction of justice is the crime of impeding the administration of law.",
+        "answer": true
+      },
+      {
+        "question": "A hitman is someone who commits murders for hire.",
+        "answer": true
+      },
+      {
+        "question": "Kidnapping is the unlawful transportation, restraint, or confinement of a person against their will.",
+        "answer": true
+      }
+]

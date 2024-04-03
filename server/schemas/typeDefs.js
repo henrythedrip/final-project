@@ -5,11 +5,24 @@ const typeDefs = `
     questions: [Question]
   }
 
+ input CategoryInput {
+    _id: ID
+    name: String
+    questions: [QuestionInput]
+  }
+
   type Question {
     _id: ID
     questionBody: String
     answer: Boolean
     category: Category
+  }
+
+  input QuestionInput {
+    _id: ID
+    questionBody: String
+    answer: Boolean
+    category: CategoryInput
   }
 
   type User {
@@ -28,9 +41,16 @@ type Score {
     
 }
 
+input ScoreInput {
+  _id: ID
+  category: [CategoryInput]
+  score: Int
+  
+}
+
 type Auth {
   token: ID!
-  profile: Profile
+  profile: User
 }
 
 
@@ -44,8 +64,7 @@ type Auth {
   type Mutation {
     addUser(username:String!, email:String!, password:String!): Auth
     login(email:String!, password: String!): Auth
-    
-    addScore(id: ID!, score:Score): User
+    addScore(id: ID!, score:ScoreInput): User
   }
 `;
 

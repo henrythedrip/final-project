@@ -7,7 +7,7 @@ const scoreSchema = new Schema({
         ref: "Category",
     },
     score: {
-        type: Number,
+        type: Int,
     },
 });
 

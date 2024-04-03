@@ -5,10 +5,16 @@ const categorySchema = new Schema({
         type: String,
         required: true,
     },
-    setOfQuestions: {
-        type: Schema.Types.ObjectId,
-        ref: "Question",
-    }
+    setOfQuestions: [{
+        question: {
+            type: String,
+            required: true,
+        },
+        answer: {
+            type: Boolean,
+            required: true,
+        },
+    }]
 })
 const Category = model('Category', categorySchema)
 module.exports = Category

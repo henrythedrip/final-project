@@ -1,6 +1,6 @@
 import React from 'react'
 
-const GameItem = () => {
+const GameItem = ({ gameLink, gameName }) => {
     return (
         <div className='game'>
             <a href={gameLink}>{gameName}</a>

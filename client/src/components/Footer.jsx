@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaRegCopyright } from 'react-icons/fa'
+// import { FaRegCopyright } from 'react-icons/fa'
 
 const Footer = () => {
     return (

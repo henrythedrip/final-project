@@ -5,7 +5,8 @@ const Footer = () => {
     return (
         <>
             <footer id='page-footer'>
-                <FaRegCopyright /> True False or Die Squadd 2024
+                {/* <FaRegCopyright />  */}
+                True False or Die Squadd 2024
             </footer>
         </>
     )

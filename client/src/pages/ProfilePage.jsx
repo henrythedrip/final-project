@@ -1,4 +1,5 @@
 import React from 'react'
+import ProfileItem from '../components/ProfileItem'
 
 const ProfilePage = () => {
     return (
@@ -9,39 +10,14 @@ const ProfilePage = () => {
                     <th>Category</th>
                     <th>High Score</th>
                 </tr>
-                <tr>
-                    <td>Animals</td>
-                    <td>10</td>
-                </tr>
-                <tr>
-                    <td>Death</td>
-                    <td>10</td>
-                </tr>
-                <tr>
-                    <td>General</td>
-                    <td>10</td>
-                </tr>
-                <tr>
-                    <td>Law</td>
-                    <td>10</td>
-                </tr>
-                <tr>
-                    <td>Food</td>
-                    <td>10</td>
-                </tr>
-                <tr>
-                    <td>Video Game</td>
-                    <td>10</td>
-                </tr>
-                <tr>
-                    <td>History</td>
-                    <td>10</td>
-                </tr>
-                <tr>
-                    <td>Sports</td>
-                    <td>10</td>
-                </tr>
-                
+                <ProfileItem categoryName="Animals" highScore="13" />
+                <ProfileItem categoryName="Death" highScore="16" />
+                <ProfileItem categoryName="Food" highScore="10" />
+                <ProfileItem categoryName="Video Games" highScore="11" />
+                <ProfileItem categoryName="General" highScore="11" />
+                <ProfileItem categoryName="History" highScore="17" />
+                <ProfileItem categoryName="Law" highScore="18" />
+                <ProfileItem categoryName="Sports" highScore="19" />
             </table>
 
 

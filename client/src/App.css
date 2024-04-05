@@ -36,7 +36,7 @@ body {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0px;
   margin-right: auto;
   margin-left: auto;
@@ -104,7 +104,8 @@ h1 {
   width: 100%;
 }
 
-.score-table th, .score-table td {
+.score-table th,
+.score-table td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: center;

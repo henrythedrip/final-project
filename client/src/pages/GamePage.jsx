@@ -6,6 +6,8 @@ const GamePage = () => {
         <div>
             <div className='game-header'>
                 <h2>Choose A Category</h2>
+            </div>
+            <div className='game-selection'>
                 <GameItem gameLink="/animal" gameName="Animals" />
                 <GameItem gameLink="/death" gameName="Death" />
                 <GameItem gameLink="/food" gameName="Food" />

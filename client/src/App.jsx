@@ -15,6 +15,7 @@ function App() {
   const [selectedPage, setSelectedPage] = useState('gamepage')
 
   function getPage(state) {
+    // console.log(state)
     switch (state) {
       case 'gamepage':
         return <GamePage />
@@ -23,11 +24,12 @@ function App() {
       case 'loginpage':
         return <LoginPage />
       default:
+        console.log(state);
         return <GamePage />
     }
   }
 
-
+  // console.log("render")
   return (
     <>
       <Header selectedPage={selectedPage} setSelectedPage={setSelectedPage} />

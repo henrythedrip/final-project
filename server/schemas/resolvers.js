@@ -63,9 +63,15 @@ const resolvers = {
         {$addToSet: {scores: score},},
         {new:true}
       );
+    },
+
+    submitAnswers: async (parent, {Answers}) => {
+      
     }
   }
 };
 
+
+//question find by id
 
 module.exports = resolvers

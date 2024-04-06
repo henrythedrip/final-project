@@ -67,7 +67,6 @@ const resolvers = {
 
     submitAnswers: async (parent, {Answers}) => {
       // count number of, correct and incorrect
-      const score = [];
       
       let correct = 0
       for (newAnswer of Answers){
@@ -79,13 +78,9 @@ const resolvers = {
         }
         questionCount++ 
       }
-      score.push(
-        questionCount,
-        correct,
-        incorrect
-      )
+     
 
-      return score
+      return {questionCount, correct}
     }
   }
 };

@@ -48,6 +48,10 @@ input ScoreInput {
   
 }
 
+input Answers{
+  question: ID!
+  answer: Boolean!
+}
 type Auth {
   token: ID!
   profile: User
@@ -65,6 +69,7 @@ type Auth {
     addUser(username:String!, email:String!, password:String!): Auth
     login(email:String!, password: String!): Auth
     addScore(id: ID!, score:ScoreInput): User
+    submitAnswers([ Answers ]):Int
   }
 `;
 

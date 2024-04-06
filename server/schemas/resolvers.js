@@ -63,9 +63,15 @@ const resolvers = {
         {$addToSet: {scores: score},},
         {new:true}
       );
+    },
+
+    submitAnswers: async (parent, {question, answer}) => {
+      // count number of, correct and incorrect
     }
   }
 };
 
+
+//question find by id
 
 module.exports = resolvers

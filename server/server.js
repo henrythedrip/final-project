@@ -40,3 +40,5 @@ const startApolloServer = async () => {
 };
 
 startApolloServer();
+
+//server does the workload a submit correct and incorrect.. mutation in serverside that passes array

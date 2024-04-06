@@ -1,35 +1,30 @@
 [
     {
-      "name": "Animals",
-      "setOfQuestions": []
+      "name": "Animals"
     },
     {
-      "name": "History",
-      "setOfQuestions": []
+      "name": "History"
     },
     {
-        "name": "Death",
-        "setOfQuestions": []
+        "name": "Death"
     },
     {
-        "name": "Food",
-        "setOfQuestions": []
+        "name": "Food"
     },
     {
-        "name": "Game",
-        "setOfQuestions": []
+        "name": "Game"
     },
     {
-        "name": "General",
-        "setOfQuestions": []
+        "name": "General"
+       
     },
     {
-        "name": "Law",
-        "setOfQuestions": []
+        "name": "Law"
+       
     },
     {
-        "name": "Sports",
-        "setOfQuestions": []
+        "name": "Sports"
+        
     }
 ]
   

@@ -35,6 +35,24 @@ body {
   min-height: 100vh;
 }
 
+footer {
+  position: relative;
+  bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, 0);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+footer p {
+  padding: 10px;
+  font-size: 1.2rem;
+  color: var(--color1);
+}
+
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -79,6 +97,28 @@ h1 {
   justify-content: center;
   padding: 10px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.score-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.score-table th,
+.score-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.score-table th {
+  color: var(--color1);
+}
+
+.profile-username {
+  font-size: 1.5em;
+  color: var(--color1);
+  padding: 20px;
 }
 
 button {

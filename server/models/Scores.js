@@ -6,9 +6,12 @@ const scoreSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: "Category",
     },
-    score: {
+    questionCount: {
         type: Number,
     },
+    correct:{
+        type: Number
+    }
 });
 
 

@@ -41,9 +41,9 @@ export const ADD_SCORE = gql`
 `;
 
 export const USER_ANSWERS = gql`
-mutation userAnswers($questionID: ID!, $answer:Boolean!){
-  userAnswers(questionID: $questionID, answer:$answer){
-    question
-    answer
+mutation submitAnswers($answers:[Answers]!){
+  submitAnswers(answers:$answers){
+    questionCount
+    correct
   }
 }`

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const GameItem = ({ gameLink, gameName }) => {
+const GameItem = ({ onClick, gameName }) => {
     return (
-        <div className='game'>
-            <a href={gameLink}>{gameName}</a>
+        <div onClick={onClick} className='game'>
+            <span>{gameName}</span>
         </div>
         // <div className="game-item">
         //     <div className="game-header">

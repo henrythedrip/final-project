@@ -65,8 +65,30 @@ const resolvers = {
       );
     },
 
-    submitAnswers: async (parent, {question, answer}) => {
+    submitAnswers: async (parent, {Answers}) => {
       // count number of, correct and incorrect
+      const score = [];
+      
+      let incorrect = 0
+      let correct = 0
+      for (newAnswer of Answers){
+        let questionCount = 1
+        const id = newAnswer.question
+        const answerSheet = await Question.findById({_id: id})
+        if(newAnswer.answer === answerSheet.answer){
+           correct++
+        }else{
+          incorrect++
+        }
+        questionCount++ 
+      }
+      score.push(
+        questionCount,
+        correct,
+        incorrect
+      )
+
+      return score
     }
   }
 };

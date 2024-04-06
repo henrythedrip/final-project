@@ -49,7 +49,8 @@ export const QUERY_SINGLE_USER = gql`
           _id
           name
         }
-        score
+        questionCount
+        correct
       }
     }
   }

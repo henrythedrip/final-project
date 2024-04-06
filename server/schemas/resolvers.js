@@ -69,7 +69,6 @@ const resolvers = {
       // count number of, correct and incorrect
       const score = [];
       
-      let incorrect = 0
       let correct = 0
       for (newAnswer of Answers){
         let questionCount = 1
@@ -77,8 +76,6 @@ const resolvers = {
         const answerSheet = await Question.findById({_id: id})
         if(newAnswer.answer === answerSheet.answer){
            correct++
-        }else{
-          incorrect++
         }
         questionCount++ 
       }

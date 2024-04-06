@@ -23,27 +23,27 @@ const typeDefs = `
 
 type Score {
     _id: ID
-    category: [Category]
+    category: Category
     questionCount: Int
     correct: Int
     
 }
 
 type Auth {
-  token: ID!
+  token: ID
   profile: User
 }
 
 input QuestionInput {
-  _id: ID
-  questionBody: String
-  answer: Boolean
+  _id: ID!
+  questionBody: String!
+  answer: Boolean!
   category: CategoryInput
 }
 
 input CategoryInput {
-  _id: ID
-  name: String
+  _id: ID!
+  name: String!
   questions: [QuestionInput]
 }
 
@@ -71,7 +71,7 @@ input Answers{
     addUser(username:String!, email:String!, password:String!): Auth
     login(email:String!, password: String!): Auth
     addScore(id: ID!, score:ScoreInput): User
-    submitAnswers([ Answers ]):Int
+    submitAnswers(Answers:[ Answers ]):Score
   }
 `;
 

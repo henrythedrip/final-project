@@ -59,7 +59,7 @@ const GamePage = () => {
     }
 
     function chooseCategory(category) {
-        console.log(category)
+        // console.log(category)
         switch (category) {
             case "animal":
                 setCategory('animal')

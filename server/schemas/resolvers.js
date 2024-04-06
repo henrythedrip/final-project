@@ -65,8 +65,8 @@ const resolvers = {
       );
     },
 
-    submitAnswers: async (parent, {Answers}) => {
-      
+    submitAnswers: async (parent, {question, answer}) => {
+      // count number of, correct and incorrect
     }
   }
 };

@@ -18,19 +18,19 @@ export const Timer = () => {
     if (total >= 0) {
       setTimer(
         (minute > 9 ? minute : "0" + minute) +
-          ":" +
-          (second > 9 ? second : "0" + second)
+        ":" +
+        (second > 9 ? second : "0" + second)
       );
     } else {
-      setTimer("00:00");
-      clearInterval(Ref.current);
-      setTimeExpired(true);
+      setTimer("00:00"); // Set timer to 00:00 when time is up
+      clearInterval(Ref.current); // Clear interval to stop the timer
+      setTimeExpired(true); // Set timeExpired state to true
     }
   }
 
   function clearTimer(e) {
     setTimer("00:00");
-    setTimeExpired(false);
+    setTimeExpired(false); // Reset timeExpired state
     if (Ref.current) clearInterval(Ref.current);
     const id = setInterval(() => {
       startTimer(e);

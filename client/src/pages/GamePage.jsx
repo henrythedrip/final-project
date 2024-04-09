@@ -50,54 +50,57 @@ mutation submitAnswer($answers: [Answer]!) {
 const GamePage = () => {
     const [gameId, setGameId] = useState('animal')
     const [currentQuestion, setCurrentQuestion] = useState(0);
+    const [userAnswers, setUserAnswers] = useState([])
 
     // for picking category
     const [category, setCategory] = useState(null);
 
     function clickHandler(e) {
+        setCurrentQuestion(currentQuestion + 1)
+        
         console.log(`clicked ${e.target}`);
     }
 
     function chooseCategory(category) {
-        console.log(category)
+        // console.log(category)
         switch (category) {
             case "animal":
-                setCategory('animal')
+                setCategory('Animals')
                 console.log(category);
                 break;
 
             case "death":
-                setCategory('death')
+                setCategory('Death')
                 console.log(category);
                 break;
 
             case "food":
-                setCategory('food')
+                setCategory('Food')
                 console.log(category);
                 break;
 
             case "game":
-                setCategory('game')
+                setCategory('Game')
                 console.log(category);
                 break;
 
             case "general":
-                setCategory('general')
+                setCategory('General')
                 console.log(category);
                 break;
 
             case "history":
-                setCategory('history')
+                setCategory('History')
                 console.log(category);
                 break;
 
             case "law":
-                setCategory('law')
+                setCategory('Law')
                 console.log(category);
                 break;
 
             case "sports":
-                setCategory('sports')
+                setCategory('Sports')
                 console.log(category);
                 break;
 
@@ -135,13 +138,14 @@ const GamePage = () => {
                 <GameItem onClick={() => chooseCategory('sports')} gameName="Sports" />
             </div>
             <div className='game-window'>
+                <p className='time'></p>
                 <h3>Here is where the question will go</h3>
-                <GameWindow category={category} />
+                <GameWindow category={category} questionIndex= {currentQuestion} />
                 {/* here we have to do a conditional rendering in which if the data array has data, then we build the elements for the question that corresponds to the index in the data array. the data array is the stuff we loaded from the lazy query */}
             </div>
             <div className='true-false-responses'>
-                <button className='true-button'>True</button>
-                <button className='false-button'>False</button>
+                <button className='true-button' onClick={clickHandler}>True</button>
+                <button className='false-button'onClick={clickHandler}>False</button>
             </div>
         </div>
     )

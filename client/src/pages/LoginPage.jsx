@@ -1,14 +1,72 @@
-import React from 'react';
-import { TextField, Button } from '@material-ui/core';
+import React, { useState } from 'react';
+import AuthService from '../utils/auth';
+
+import users from '../utils/users.json';
 
 function LoginForm() {
-    return (
-        <div className="login-form">
-            <TextField label="Email" variant="outlined" fullWidth />
-            <TextField label="Password" type="password" variant="outlined" fullWidth />
-            <Button variant="contained" color="primary">Login</Button>
-        </div>
-    );
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('');
+  const [error, setError] = useState('');
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const user = users.find(u => u.username === username || u.email === email);
+    if (!user) {
+      setError('Invalid username or email');
+      return;
+    }
+
+    if (user.password !== password) {
+      setError('Invalid password');
+      return;
+    }
+
+    try {
+        const { token } = await AuthService.login({ username, email, password });
+        localStorage.setItem('id_token', JSON.stringify(token));
+        setIsAuthenticated(true);
+      } catch (error) {
+        setError('Invalid username/email or password');
+      }
+
+      if (isAuthenticated) {
+        return <h2>welcome { username } </h2>
+      }
+    };
+
+
+  return (
+    <div className="login-form">
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+          placeholder="Username"
+          required
+        />
+        <input
+          type="text"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Email"
+          required
+        />
+        <input
+          type="password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          placeholder="Password"
+          required
+        />
+        <button type="submit">Login</button>
+      </form>
+      {error && <p>{error}</p>}
+    </div>
+  );
 }
 
 export default LoginForm;

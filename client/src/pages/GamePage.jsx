@@ -1,8 +1,10 @@
 import React from 'react'
 import GameItem from '../components/GameItem'
 import GameWindow from '../components/GameWindow'
+// import Timer from '../components/Timer';
 import { useState, useEffect } from 'react'
-
+import { USER_ANSWERS } from '../utils/mutations';
+import { useMutation } from '@apollo/client';
 
 
 // we need to do something similar to challenge 4... we had a variable that was a current question, now we are going to use the useState instead of a variable ... once they answer the question, we change the value of the current question with the set current question to the next value... we should do the randomization of the questions in the backend .. return only the questions that we need from the backend in a random order. 
@@ -49,8 +51,11 @@ mutation submitAnswer($answers: [Answer]!) {
 const GamePage = () => {
     const [gameId, setGameId] = useState('animal')
     const [currentQuestion, setCurrentQuestion] = useState(0);
-    const [userAnswers, setUserAnswers] = useState([])
+    const [userAnswers, setUserAnswers] = useState([]);
+    const [scoreSubmit, setScoreSubmit] = useState(false);
+    
 
+    const [submitAnswers] = useMutation(USER_ANSWERS);
     // for picking category
     const [category, setCategory] = useState(null);
 
@@ -119,6 +124,20 @@ const GamePage = () => {
         }
     }
 
+    const endGame = () => {
+        console.log('what',userAnswers)
+        const score = submitAnswers({
+            variables:{userAnswers}
+        })
+        return <div>
+            <h2> Your Score {score}</h2>
+        </div>
+      }
+const scoreSave = () => {
+//put score Add here
+}
+
+
     // we need to learn how useLazyQuery works before we try to use it
     // const [singleCategory, { loading, error, data }] = useLazyQuery(QUERY_SINGLE_CATEGORY)
     // useEffect(() => {
@@ -147,7 +166,8 @@ const GamePage = () => {
             <div className='game-window'>
                 <p className='time'></p>
                 <h3>Here is where the question will go</h3>
-                <GameWindow category={category} questionIndex= {currentQuestion} userAnswers={userAnswers} />
+                {category && <GameWindow category={category} questionIndex= {currentQuestion} userAnswers={userAnswers} />}
+                {/* {scoreSubmit && endGame()} */}
                 {/* here we have to do a conditional rendering in which if the data array has data, then we build the elements for the question that corresponds to the index in the data array. the data array is the stuff we loaded from the lazy query */}
             </div>
             <div className='true-false-responses'>

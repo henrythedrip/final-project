@@ -8,7 +8,27 @@ import GameItem from './components/GameItem'
 import GamePage from './pages/GamePage'
 import ProfilePage from './pages/ProfilePage'
 import LoginPage from './pages/LoginPage'
+import { setContext } from '@apollo/client/link/context'
+import { ApolloClient, ApolloProvider, createHttpLink, InMemoryCache } from '@apollo/client'
 
+const httpLink = createHttpLink({
+  uri: '/graphql',
+});
+
+const authLink = setContext((_, { headers }) => {
+  const token = localStorage.getItem('id_token');
+  return {
+    headers: {
+      ...headers,
+      authorization: token ? `Bearer ${token}` : '',
+    },
+  };
+});
+
+const client = new ApolloClient({
+  link: authLink.concat(httpLink),
+  cache: new InMemoryCache(),
+});
 
 function App() {
   // possible states include: about, portfolio, resume, contact
@@ -31,14 +51,17 @@ function App() {
 
   // console.log("render")
   return (
-    <>
-      <Header selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
+    <ApolloProvider client={client}>
+      <>
+        <Header selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
 
-      {/* page to show */}
-      <div className='content-wrapper'>{getPage(selectedPage)}</div>
+        {/* page to show */}
+        <div className='content-wrapper'>{getPage(selectedPage)}</div>
 
-      <Footer />
-    </>
+        <Footer />
+
+      </>
+    </ApolloProvider>
   )
 }
 

@@ -59,7 +59,7 @@ const GamePage = () => {
     }
 
     function chooseCategory(category) {
-        console.log(category)
+        // console.log(category)
         switch (category) {
             case "animal":
                 setCategory('animal')
@@ -135,6 +135,7 @@ const GamePage = () => {
                 <GameItem onClick={() => chooseCategory('sports')} gameName="Sports" />
             </div>
             <div className='game-window'>
+                <p className='time'></p>
                 <h3>Here is where the question will go</h3>
                 <GameWindow category={category} />
                 {/* here we have to do a conditional rendering in which if the data array has data, then we build the elements for the question that corresponds to the index in the data array. the data array is the stuff we loaded from the lazy query */}

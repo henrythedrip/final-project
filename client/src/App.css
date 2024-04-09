@@ -52,7 +52,6 @@ footer p {
   color: var(--color1);
 }
 
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -68,7 +67,7 @@ h1 {
 
 .header span {
   font-size: x-large;
-  color: var(--color1)
+  color: var(--color1);
 }
 
 .header div:hover {
@@ -126,8 +125,7 @@ form {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;;
-
+  padding: 10px;
 }
 
 input {
@@ -173,10 +171,8 @@ button:focus-visible {
 
 .true-false-responses button {
   margin: 10px;
-
 }
 
 .true-false-responses button:hover {
   font-size: x-large;
-
 }

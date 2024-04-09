@@ -8,7 +8,7 @@ function LoginForm() {
   const [password, setPassword] = useState('');
   const [email, setEmail] = useState('');
   const [error, setError] = useState('');
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(true);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -31,6 +31,9 @@ function LoginForm() {
       } catch (error) {
         setError('Invalid username/email or password');
       }
+      if (isAuthenticated) {
+        alert('You are now logged in as ' + username + '!');
+      } 
 
       
     };
@@ -68,3 +71,4 @@ function LoginForm() {
 }
 
 export default LoginForm;
+

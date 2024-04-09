@@ -1,10 +1,11 @@
 import React from 'react'
 import GameItem from '../components/GameItem'
 import GameWindow from '../components/GameWindow'
-// import Timer from '../components/Timer';
+
 import { useState, useEffect } from 'react'
 import { USER_ANSWERS } from '../utils/mutations';
 import { useMutation } from '@apollo/client';
+
 
 
 // we need to do something similar to challenge 4... we had a variable that was a current question, now we are going to use the useState instead of a variable ... once they answer the question, we change the value of the current question with the set current question to the next value... we should do the randomization of the questions in the backend .. return only the questions that we need from the backend in a random order. 
@@ -65,12 +66,15 @@ const GamePage = () => {
         const question = localStorage.getItem('question');
         const collection = userAnswers;
         collection.push({
-            answer,
-            question
+            answer:answer,
+            question:question
         })
         console.log(collection)
         console.log(e.target.value);
         setUserAnswers(collection);
+        if(userAnswers.length === 5){
+            setScoreSubmit(true)
+        }
     }
 
     function chooseCategory(category) {
@@ -123,14 +127,17 @@ const GamePage = () => {
 
         }
     }
-
+console.log('what',userAnswers)
     const endGame = () => {
-        console.log('what',userAnswers)
+        
         const score = submitAnswers({
-            variables:{userAnswers}
+            variables: userAnswers
         })
+        if(!score){
+            console.log('no score')
+        }
         return <div>
-            <h2> Your Score {score}</h2>
+            <h2> Your Score</h2>
         </div>
       }
 const scoreSave = () => {
@@ -167,7 +174,7 @@ const scoreSave = () => {
                 <p className='time'></p>
                 <h3>Here is where the question will go</h3>
                 {category && <GameWindow category={category} questionIndex= {currentQuestion} userAnswers={userAnswers} />}
-                {/* {scoreSubmit && endGame()} */}
+                
                 {/* here we have to do a conditional rendering in which if the data array has data, then we build the elements for the question that corresponds to the index in the data array. the data array is the stuff we loaded from the lazy query */}
             </div>
             <div className='true-false-responses'>

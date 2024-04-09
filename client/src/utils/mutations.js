@@ -34,7 +34,8 @@ export const ADD_SCORE = gql`
           _id
           name
         }
-        score
+        questionCount
+        scores
       }
     }
   }

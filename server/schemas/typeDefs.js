@@ -8,7 +8,6 @@ const typeDefs = `
   type Question {
     _id: ID
     questionBody: String
-    answer: Boolean
     category: Category
   }
 
@@ -37,7 +36,6 @@ type Auth {
 input QuestionInput {
   _id: ID!
   questionBody: String!
-  answer: Boolean!
   category: CategoryInput
 }
 
@@ -63,7 +61,7 @@ input Answers{
   type Query {
   categories: [Category]
   questions: [Question]
-  category(id: ID!): Category
+  category(name: String!): Category
   user(id: ID!): User
   }
 

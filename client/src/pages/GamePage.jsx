@@ -58,25 +58,25 @@ const GamePage = () => {
     const [scoreValue, setScoreValue] = useState(null);
 
     const [submitAnswers] = useMutation(USER_ANSWERS);
-   
+
     // for picking category
     const [category, setCategory] = useState(null);
-console.log(userAnswers.length,'banana')
+    console.log(userAnswers.length, 'banana')
     function clickHandler(e) {
         let answer = true;
         setCurrentQuestion(currentQuestion + 1)
         const question = localStorage.getItem('question');
-        if(e.target.value === 'true'){
+        if (e.target.value === 'true') {
             answer = true;
-        }else{answer = false;}
-         
-                if(userAnswers.length === 5){
+        } else { answer = false; }
+
+        if (userAnswers.length === 10) {
             endGame()
         }
         console.log(userAnswers);
         return setUserAnswers([
             ...userAnswers,
-            {question: question, answer: answer }
+            { question: question, answer: answer }
         ]);
 
     }
@@ -131,27 +131,27 @@ console.log(userAnswers.length,'banana')
 
         }
     }
-console.log('what',userAnswers.question)
+    console.log('what', userAnswers.question)
     const endGame = async () => {
-        try{
-        const response = await submitAnswers({
-            variables: {answers: userAnswers}
-        })
-        if(!response){
-            console.log('no score')
-        }
-        const score = await response.data.submitAnswers
-console.log(score,'wbft')
-setScoreSubmit(score)
-setCategory(null)
-setScoreValue('score')
-    }catch(err){console.error(err)}
-      }
-const scoreRender = () => {
-return <div>
-    <h2>Number of Questions: {scoreSubmit.questionCount} Correct Questions: {scoreSubmit.correct}</h2>
-</div>
-}
+        try {
+            const response = await submitAnswers({
+                variables: { answers: userAnswers }
+            })
+            if (!response) {
+                console.log('no score')
+            }
+            const score = await response.data.submitAnswers
+            console.log(score, 'wbft')
+            setScoreSubmit(score)
+            setCategory(null)
+            setScoreValue('score')
+        } catch (err) { console.error(err) }
+    }
+    const scoreRender = () => {
+        return <div>
+            <h2>Number of Questions: {scoreSubmit.questionCount} Correct Questions: {scoreSubmit.correct}</h2>
+        </div>
+    }
 
 
     // we need to learn how useLazyQuery works before we try to use it
@@ -182,13 +182,13 @@ return <div>
             <div className='game-window'>
                 <p className='time'></p>
                 {/* <h3>Here is where the question will go</h3> */}
-                {category && <GameWindow category={category} questionIndex= {currentQuestion} userAnswers={userAnswers} scoreSubmit={scoreSubmit} />}
+                {category && <GameWindow category={category} questionIndex={currentQuestion} userAnswers={userAnswers} scoreSubmit={scoreSubmit} />}
                 {scoreValue && scoreRender()}
                 {/* here we have to do a conditional rendering in which if the data array has data, then we build the elements for the question that corresponds to the index in the data array. the data array is the stuff we loaded from the lazy query */}
             </div>
             <div className='true-false-responses'>
                 <button value='true' className='true-button' onClick={clickHandler}>True</button>
-                <button value='false' className='false-button'onClick={clickHandler}>False</button>
+                <button value='false' className='false-button' onClick={clickHandler}>False</button>
             </div>
         </div>
     )

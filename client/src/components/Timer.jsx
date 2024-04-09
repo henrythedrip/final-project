@@ -52,6 +52,8 @@ export const Timer = () => {
     <div className="Timer">
       {timeExpired ? (
         <h2>You did not complete 5 questions in the 30-second window</h2>
+        // TODO: if we can add this code here, we should be able to display the quantity of questions they have answered when the timer runs out. This would be better than displaying the above code which is less fun
+        // <h2>Number of Questions: {scoreSubmit.questionCount} Correct Questions: {scoreSubmit.correct}</h2>
       ) : (
         <h2>{timer}</h2>
       )}

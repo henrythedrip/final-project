@@ -4,6 +4,10 @@
         "answer": true
     },
     {
+        "question": "The character Kirby was originally square, but was changed to round for the North American release of the game.",
+        "answer": false
+    },
+    {
         "question": "The highest possible score in Pac-Man is 3,333,360 points.",
         "answer": true
     },
@@ -12,12 +16,8 @@
         "answer": true
     },
     {
-        "question": "The character Kirby was originally white, but was changed to pink for the North American release of the game.",
+        "question": "The game 'EarthBound' was marketed as 'Big Hairy Foot' in Japan.",
         "answer": false
-    },
-    {
-        "question": "The game 'EarthBound' was marketed as 'Mother' in Japan.",
-        "answer": true
     },
     {
         "question": "The NES game 'Bubble Bobble' features a hidden cheat code that allows players to skip levels.",
@@ -32,8 +32,8 @@
         "answer": false
     },
     {
-        "question": "The first video game to feature a save feature was 'The Legend of Zelda' for the NES.",
-        "answer": true
+        "question": "The first video game to feature a save feature was 'GTA San Andreas'.",
+        "answer": false
     },
     {
         "question": "The voice actor for the character Duke Nukem also voiced the character Big the Cat in 'Sonic Adventure'.",

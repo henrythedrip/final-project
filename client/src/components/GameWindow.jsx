@@ -3,10 +3,7 @@ import { QUERY_SINGLE_CATEGORY } from "../utils/querires";
 import { useQuery } from "@apollo/client";
 import { useState, useEffect, useRef } from "react";
 import { Timer } from "../components/Timer";
-import React from 'react';
-import { QUERY_SINGLE_CATEGORY} from '../utils/querires';
-import { useQuery  } from '@apollo/client';
-import { useState } from 'react';
+
 
 
 // import { useState, useEffect } from 'react'

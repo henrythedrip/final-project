@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 
 export const Timer = () => {
   const [timer, setTimer] = useState("00:00");
+  const [timeExpired, setTimeExpired] = useState(false);
   const Ref = useRef();
-  //   console.log("Timer component");
 
   function getTimeRemaining(e) {
     const total = Date.parse(e) - Date.parse(new Date());
@@ -18,14 +18,19 @@ export const Timer = () => {
     if (total >= 0) {
       setTimer(
         (minute > 9 ? minute : "0" + minute) +
-          ":" +
-          (second > 9 ? second : "0" + second)
+        ":" +
+        (second > 9 ? second : "0" + second)
       );
+    } else {
+      setTimer("00:00"); // Set timer to 00:00 when time is up
+      clearInterval(Ref.current); // Clear interval to stop the timer
+      setTimeExpired(true); // Set timeExpired state to true
     }
   }
 
   function clearTimer(e) {
     setTimer("00:00");
+    setTimeExpired(false); // Reset timeExpired state
     if (Ref.current) clearInterval(Ref.current);
     const id = setInterval(() => {
       startTimer(e);
@@ -39,26 +44,17 @@ export const Timer = () => {
     return deadline;
   }
 
-  function checkTimeUp() {
-    if (timer === "00:00") {
-      alert("Time's up!");
-      clearTimer(getDeadTime());
-    }
-  }
-
   useEffect(() => {
     clearTimer(getDeadTime());
   }, []);
 
-  useEffect(() => {
-    checkTimeUp();
-  }, [timer]);
-
-  //   console.log(timer);
-
   return (
     <div className="Timer">
-      <h2>{timer}</h2>
+      {timeExpired ? (
+        <h2>You did not complete 5 questions in the 30-second window</h2>
+      ) : (
+        <h2>{timer}</h2>
+      )}
     </div>
   );
 };

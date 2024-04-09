@@ -1,10 +1,10 @@
 [
     {
-        "question": "The tomato is the world's most consumed fruit.",
+        "question": "In France, it is illegal to name a pig 'Napoleon'.",
         "answer": true
     },
     {
-        "question": "Honey never spoils.",
+        "question": "The tomato is the world's most consumed fruit.",
         "answer": true
     },
     {
@@ -12,20 +12,20 @@
         "answer": false
     },
     {
-        "question": "Peanuts are legumes, not nuts.",
+        "question": "Honey never spoils.",
         "answer": true
     },
     {
-        "question": "The world's hottest chili pepper is the Carolina Reaper.",
+        "question": "Peanuts are nuts.",
+        "answer": false
+    },
+    {
+        "question": "The hottest peppers in the world are bred by Smokin' Ed.",
         "answer": true
     },
     {
-        "question": "The durian fruit is banned in many hotels and public transportation systems in Southeast Asia due to its strong odor.",
-        "answer": true
-    },
-    {
-        "question": "In France, it is illegal to name a pig 'Napoleon'.",
-        "answer": true
+        "question": "The durian fruit is allowed in all hotels and public transportation systems in Southeast Asia.",
+        "answer": false
     },
     {
         "question": "A 'clementine' is a cross between a mandarin and a grapefruit.",
@@ -46,10 +46,6 @@
     {
         "question": "Chocolate was once used as currency.",
         "answer": true
-    },
-    {
-        "question": "The 'Rubik's Cube' was originally invented as a tool to teach students about three-dimensional space.",
-        "answer": false
     },
     {
         "question": "The hottest part of a chili pepper is its seeds.",

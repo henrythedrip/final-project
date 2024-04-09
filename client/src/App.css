@@ -70,10 +70,12 @@ h1 {
   color: var(--color1);
 }
 
-.header div:hover {
+.header div:hover,
+.game:hover {
   color: var(--color1);
   font-size: x-large;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .game-header {
@@ -155,11 +157,12 @@ button {
 
 button:hover {
   border-color: var(--color1);
+  transition: 0.5s;
 }
 
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: 4px auto var(--color1);
 }
 
 .true-false-responses {

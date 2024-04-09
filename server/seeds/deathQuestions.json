@@ -4,8 +4,8 @@
         "answer": true
     },
     {
-        "question": "The leading cause of death worldwide is heart disease.",
-        "answer": true
+        "question": "The leading cause of death worldwide is cancer.",
+        "answer": false
     },
     {
         "question": "Sudden cardiac arrest is the same as a heart attack.",
@@ -20,16 +20,16 @@
         "answer": true
     },
     {
-        "question": "Cancer is a leading cause of death globally.",
-        "answer": true
-    },
-    {
-        "question": "Alzheimer's disease is always fatal.",
-        "answer": true
+        "question": "Alzheimer's disease is never fatal.",
+        "answer": false
     },
     {
         "question": "The brain continues to function for a brief period after the heart stops beating.",
         "answer": true
+    },
+    {
+        "question": "Terminal illnesses are always painful for the individual experiencing them.",
+        "answer": false
     },
     {
         "question": "In most cases, a coroner determines the cause of death.",
@@ -45,10 +45,6 @@
     },
     {
         "question": "An autopsy is always performed to determine the cause of death.",
-        "answer": false
-    },
-    {
-        "question": "Terminal illnesses are always painful for the individual experiencing them.",
         "answer": false
     },
     {

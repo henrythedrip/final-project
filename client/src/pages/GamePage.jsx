@@ -51,6 +51,7 @@ mutation submitAnswer($answers: [Answer]!) {
 
 
 const GamePage = () => {
+
     const [gameId, setGameId] = useState('animal')
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [userAnswers, setUserAnswers] = useState([]);
@@ -154,6 +155,7 @@ return <div>
 }
 
 
+
     // we need to learn how useLazyQuery works before we try to use it
     // const [singleCategory, { loading, error, data }] = useLazyQuery(QUERY_SINGLE_CATEGORY)
     // useEffect(() => {
@@ -165,6 +167,7 @@ return <div>
     //     // })
     // }, [gameId])
     return (
+
         <div>
             <div className='game-header'>
                 <h2>Choose A Category</h2>
@@ -182,13 +185,17 @@ return <div>
             <div className='game-window'>
                 <p className='time'></p>
                 {/* <h3>Here is where the question will go</h3> */}
+
                 {category && <GameWindow category={category} questionIndex= {currentQuestion} userAnswers={userAnswers} scoreSubmit={scoreSubmit} />}
+
                 {scoreValue && scoreRender()}
                 {/* here we have to do a conditional rendering in which if the data array has data, then we build the elements for the question that corresponds to the index in the data array. the data array is the stuff we loaded from the lazy query */}
             </div>
             <div className='true-false-responses'>
                 <button value='true' className='true-button' onClick={clickHandler}>True</button>
+
                 <button value='false' className='false-button'onClick={clickHandler}>False</button>
+
             </div>
         </div>
     )

@@ -1,0 +1,181 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: large;
+  font-weight: 600;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--background-color);
+  -webkit-font-smoothing: antialiased;
+  --background-color: #1e1309;
+  --color1: orange;
+}
+
+a {
+  color: white;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: var(--color1);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, 0);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+footer p {
+  padding: 10px;
+  font-size: 1.2rem;
+  color: var(--color1);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.header span {
+  font-size: x-large;
+  color: var(--color1);
+}
+
+.header div:hover,
+.game:hover {
+  color: var(--color1);
+  font-size: x-large;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.game-header {
+  padding-top: 10px;
+  color: var(--color1);
+}
+
+.game-selection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.game-window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.score-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.score-table th,
+.score-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.score-table th {
+  color: var(--color1);
+}
+
+.profile-username {
+  font-size: 1.5em;
+  color: var(--color1);
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+input {
+  border-radius: 8px;
+  border: 2px var(--color1) solid;
+  padding: 0.6em 1.2em;
+  font-size: larger;
+  font-family: inherit;
+  background-color: #ddd;
+  color: var(--background-color);
+  margin: 10px;
+  width: 100%;
+  font-weight: 900;
+}
+
+button {
+  border-radius: 8px;
+  border: 2px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: larger;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  font-weight: 900;
+}
+
+button:hover {
+  border-color: var(--color1);
+  transition: 0.5s;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto var(--color1);
+}
+
+.true-false-responses {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.true-false-responses button {
+  margin: 10px;
+}
+
+.true-false-responses button:hover {
+  font-size: x-large;
+}

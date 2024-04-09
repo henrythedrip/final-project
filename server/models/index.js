@@ -1,8 +1,5 @@
-const Animals = require('./Animals');
-const Sports = require('./Sports');
-const Death = require('./Death');
-const Games = require('./Games');
-const General = require('./General');
+const Category = require('./Categories');
+const Question = require('./Questions');
+const User = require('./Users');
 
-module.exports = { Animals, Sports, Death, Games, General };
-
+module.exports = { Category, Question, User };

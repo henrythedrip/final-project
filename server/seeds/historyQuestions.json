@@ -1,0 +1,286 @@
+[
+    {
+        "question": "The ancient city of Troy was located in present-day Greece.",
+        "answer": false
+    },
+    {
+        "question": "The ancient Greeks used a form of early computer called the 'Antikythera Mechanism'.",
+        "answer": true
+    },
+    {
+        "question": "The Hanging Gardens of Babylon were actually a series of underground gardens.",
+        "answer": false
+    },
+    {
+        "question": "The term 'Dark Ages' was used by historians to describe the period between the fall of the Roman Empire and the Renaissance.",
+        "answer": true
+    },
+    {
+        "question": "The ancient Egyptians used hieroglyphs primarily for religious texts, rather than everyday writing.",
+        "answer": true
+    },
+    {
+        "question": "The Library of Alexandria was destroyed by Julius Caesar's army in 48 BC.",
+        "answer": false
+    },
+    {
+        "question": "The Great Wall of China was built in a single continuous construction period.",
+        "answer": false
+    },
+    {
+        "question": "Vikings were primarily a peaceful people known for their advanced agricultural practices.",
+        "answer": false
+    },
+    {
+        "question": "The Black Death primarily spread through contaminated water sources.",
+        "answer": false
+    },
+    {
+        "question": "The Colosseum in Rome was primarily used for gladiator battles.",
+        "answer": false
+    },
+    {
+        "question": "The Great Pyramid of Giza was originally covered in smooth, white limestone casing stones.",
+        "answer": true
+    },
+    {
+        "question": "The Mayans were the first civilization to develop the concept of zero.",
+        "answer": false
+    },
+    {
+        "question": "The Greek philosopher Socrates wrote extensively, but none of his works survive today.",
+        "answer": true
+    },
+    {
+        "question": "The ancient city of Carthage was located in present-day Tunisia.",
+        "answer": true
+    },
+    {
+        "question": "The Rosetta Stone was discovered by French soldiers during Napoleon's campaign in Egypt.",
+        "answer": true
+    },
+    {
+        "question": "The Roman Emperor Nero was responsible for the Great Fire of Rome in 64 AD.",
+        "answer": false
+    },
+    {
+        "question": "The Battle of Thermopylae was won by the Persians.",
+        "answer": true
+    },
+    {
+        "question": "The concept of trial by combat was commonly used in medieval Europe to settle legal disputes.",
+        "answer": true
+    },
+    {
+        "question": "The phrase 'Let them eat cake' is commonly attributed to Marie Antoinette, but there is no historical evidence she actually said it.",
+        "answer": true
+    },
+    {
+        "question": "The Pyramids of Teotihuacan were built by the Aztecs.",
+        "answer": false
+    },
+    {
+        "question": "The ancient city of Machu Picchu was discovered by Spanish conquistadors.",
+        "answer": false
+    },
+    {
+        "question": "The Roman Emperor Caligula declared war on the sea by ordering his soldiers to collect seashells as spoils of war.",
+        "answer": true
+    },
+    {
+        "question": "The Battle of Hastings in 1066 was fought between England and France.",
+        "answer": false
+    },
+    {
+        "question": "The Great Fire of London in 1666 was caused by a bakery fire.",
+        "answer": true
+    },
+    {
+        "question": "The 'Magna Carta' was signed by King Henry VIII of England.",
+        "answer": false
+    },
+    {
+        "question": "The Hanging Gardens of Babylon were one of the Seven Wonders of the Ancient World.",
+        "answer": true
+    },
+    {
+        "question": "The ancient city of Petra is located in present-day Iraq.",
+        "answer": false
+    },
+    {
+        "question": "The Byzantine Empire was the eastern half of the Roman Empire that continued to exist after the fall of Rome.",
+        "answer": true
+    },
+    {
+        "question": "The Trojan War was a fictional event created by the Greek poet Homer.",
+        "answer": false
+    },
+    {
+        "question": "The Taj Mahal was built as a mausoleum for Emperor Akbar's wife.",
+        "answer": false
+    },
+    {
+        "question": "The Battle of Agincourt was a decisive English victory over the French during the Hundred Years' War.",
+        "answer": true
+    },
+    {
+        "question": "The ancient city of Pompeii was destroyed by a volcanic eruption from Mount Vesuvius in 79 AD.",
+        "answer": true
+    },
+    {
+        "question": "The term 'Renaissance' means 'rebirth' and refers to a period of cultural revival in Europe.",
+        "answer": true
+    },
+    {
+        "question": "The ancient city of Babylon was located in present-day Egypt.",
+        "answer": false
+    },
+    {
+        "question": "The Battle of Tours in 732 AD resulted in the defeat of the Muslim forces by the Franks, halting the Muslim advance into Western Europe.",
+        "answer": true
+    },
+    {
+        "question": "The ancient city of Angkor Wat is located in present-day Thailand.",
+        "answer": false
+    },
+    {
+        "question": "The Gutenberg Bible was the first book printed using movable type in Europe.",
+        "answer": true
+    },
+    {
+        "question": "The phrase 'The pen is mightier than the sword' originated from a novel by Miguel de Cervantes.",
+        "answer": false
+    },
+    {
+        "question": "The 'Domesday Book' was commissioned by William the Conqueror to assess the land and property in England for taxation purposes.",
+        "answer": true
+    },
+    {
+        "question": "The Library of Alexandria was destroyed by a fire caused by Julius Caesar's army.",
+        "answer": false
+    },
+    {
+        "question": "The 'Thirty Years' War' was primarily fought over religious conflicts between Protestants and Catholics.",
+        "answer": true
+    },
+    {
+        "question": "The ancient city of Petra is known for its massive stone sculptures called moai.",
+        "answer": false
+    },
+    {
+        "question": "The 'Silk Road' was a network of trade routes connecting Europe and Asia.",
+        "answer": true
+    },
+    {
+        "question": "The Viking explorer Leif Erikson is believed to have reached North America around the year 1000 AD, nearly 500 years before Christopher Columbus.",
+        "answer": true
+    },
+    {
+        "question": "The term 'Baroque' was used to describe a style of art and architecture that emerged in the late medieval period.",
+        "answer": false
+    },
+    {
+        "question": "The 'Babylonian Exile' refers to the forced relocation of the Jewish population of Babylon to Jerusalem.",
+        "answer": false
+    },
+    {
+        "question": "The ancient city of Babylon was ruled by the Pharaohs of Egypt.",
+        "answer": false
+    },
+    {
+        "question": "The 'Gunpowder Plot' of 1605 was an attempt by Guy Fawkes and others to blow up the British Parliament and assassinate King James I.",
+        "answer": true
+    },
+    {
+        "question": "The 'Opium Wars' were fought between Britain and China over the lucrative opium trade.",
+        "answer": true
+    },
+    {
+        "question": "The 'Suez Canal' was constructed in the 19th century to connect the Mediterranean Sea with the Red Sea.",
+        "answer": true
+    },
+    {
+        "question": "The ancient city of Constantinople was founded by Alexander the Great.",
+        "answer": false
+    },
+    {
+        "question": "The 'Salem Witch Trials' were a series of trials and executions held in the American colonies in the late 17th century.",
+        "answer": true
+    },
+    {
+        "question": "The 'French Revolution' began in 1789 with the storming of the Bastille.",
+        "answer": true
+    },
+    {
+        "question": "The 'Spanish Armada' was defeated by the English fleet in 1588.",
+        "answer": true
+    },
+    {
+        "question": "The 'Code of Hammurabi' is one of the earliest known legal codes, dating back to ancient Egypt.",
+        "answer": false
+    },
+    {
+        "question": "The 'Boxer Rebellion' in China was a revolt against foreign influence and Christianity.",
+        "answer": true
+    },
+    {
+        "question": "The 'Battle of Waterloo' was Napoleon's final defeat, ending his reign as Emperor of France.",
+        "answer": true
+    },
+    {
+        "question": "The 'Crusades' were a series of military campaigns waged by Christian armies to reclaim the Holy Land from Muslim rule.",
+        "answer": true
+    },
+    {
+        "question": "The 'Trail of Tears' refers to the forced relocation of Native American tribes from the southeastern United States to Indian Territory.",
+        "answer": true
+    },
+    {
+        "question": "The 'Salem Witch Trials' resulted in the execution of over 200 people accused of witchcraft.",
+        "answer": false
+    },
+    {
+        "question": "The 'Spanish Inquisition' was established to combat heresy and enforce Catholic orthodoxy in Spain.",
+        "answer": true
+    },
+    {
+        "question": "The 'Hundred Years' War' was fought between England and France over control of the English Channel.",
+        "answer": true
+    },
+    {
+        "question": "The 'Magna Carta' established the principle of habeas corpus.",
+        "answer": false
+    },
+    {
+        "question": "The 'Zhou Dynasty' was the longest-lasting dynasty in Chinese history.",
+        "answer": true
+    },
+    {
+        "question": "The 'Treaty of Versailles' officially ended World War I.",
+        "answer": true
+    },
+    {
+        "question": "The 'Irish Potato Famine' of the mid-19th century was caused by a fungus that destroyed potato crops.",
+        "answer": true
+    },
+    {
+        "question": "The 'Reconquista' was the campaign to drive Muslim Moors out of Spain.",
+        "answer": true
+    },
+    {
+        "question": "The 'Suez Crisis' of 1956 involved military action by Israel, France, and the United Kingdom against Egypt.",
+        "answer": true
+    },
+    {
+        "question": "The 'Berlin Wall' was built by East Germany to prevent its citizens from fleeing to West Germany.",
+        "answer": true
+    },
+    {
+        "question": "The 'War of 1812' was fought between the United States and Mexico.",
+        "answer": false
+    },
+    {
+        "question": "The 'Tulip Mania' was a speculative bubble in the Netherlands in the 17th century.",
+        "answer": true
+    }
+]

@@ -4,7 +4,8 @@ import GameWindow from '../components/GameWindow'
 
 import { useState, useEffect } from 'react'
 import { USER_ANSWERS } from '../utils/mutations';
-import { useMutation } from '@apollo/client';
+import { useMutation, useQuery } from '@apollo/client';
+import { ADD_SCORE } from '../utils/mutations';
 
 
 
@@ -53,10 +54,11 @@ const GamePage = () => {
     const [gameId, setGameId] = useState('animal')
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [userAnswers, setUserAnswers] = useState([]);
-    const [scoreSubmit, setScoreSubmit] = useState(false);
-    
+    const [scoreSubmit, setScoreSubmit] = useState([]);
+    const [scoreValue, setScoreValue] = useState(null);
 
     const [submitAnswers] = useMutation(USER_ANSWERS);
+   
     // for picking category
     const [category, setCategory] = useState(null);
 console.log(userAnswers.length,'banana')
@@ -130,20 +132,25 @@ console.log(userAnswers.length,'banana')
         }
     }
 console.log('what',userAnswers.question)
-    const endGame = () => {
-        
-        const score = submitAnswers({
+    const endGame = async () => {
+        try{
+        const response = await submitAnswers({
             variables: {answers: userAnswers}
         })
-        if(!score){
+        if(!response){
             console.log('no score')
         }
-        return <div>
-            <h2> Your Score</h2>
-        </div>
+        const score = await response.data.submitAnswers
+console.log(score,'wbft')
+setScoreSubmit(score)
+setCategory(null)
+setScoreValue('score')
+    }catch(err){console.error(err)}
       }
-const scoreSave = () => {
-//put score Add here
+const scoreRender = () => {
+return <div>
+    <h2>Number of Questions: {scoreSubmit.questionCount} Correct Questions: {scoreSubmit.correct}</h2>
+</div>
 }
 
 
@@ -174,9 +181,9 @@ const scoreSave = () => {
             </div>
             <div className='game-window'>
                 <p className='time'></p>
-                <h3>Here is where the question will go</h3>
-                {category && <GameWindow category={category} questionIndex= {currentQuestion} userAnswers={userAnswers} />}
-                
+                {/* <h3>Here is where the question will go</h3> */}
+                {category && <GameWindow category={category} questionIndex= {currentQuestion} userAnswers={userAnswers} scoreSubmit={scoreSubmit} />}
+                {scoreValue && scoreRender()}
                 {/* here we have to do a conditional rendering in which if the data array has data, then we build the elements for the question that corresponds to the index in the data array. the data array is the stuff we loaded from the lazy query */}
             </div>
             <div className='true-false-responses'>

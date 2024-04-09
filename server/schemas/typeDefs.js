@@ -69,7 +69,7 @@ input Answers{
   type Mutation {
     addUser(username:String!, email:String!, password:String!): Auth
     login(email:String!, password: String!): Auth
-    addScore(id: ID!, score:ScoreInput): User
+    addScore(id: ID!, score:[ScoreInput]!): User
     submitAnswers(Answers:[ Answers ]!):Score
   }
 `;

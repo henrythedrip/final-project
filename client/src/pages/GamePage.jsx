@@ -2,8 +2,7 @@ import React from 'react'
 import GameItem from '../components/GameItem'
 import GameWindow from '../components/GameWindow'
 import { useState, useEffect } from 'react'
-import { useLazyQuery } from '@apollo/client'
-import { QUERY_SINGLE_CATEGORY } from '../utils/querires'
+
 
 
 // we need to do something similar to challenge 4... we had a variable that was a current question, now we are going to use the useState instead of a variable ... once they answer the question, we change the value of the current question with the set current question to the next value... we should do the randomization of the questions in the backend .. return only the questions that we need from the backend in a random order. 
@@ -57,8 +56,16 @@ const GamePage = () => {
 
     function clickHandler(e) {
         setCurrentQuestion(currentQuestion + 1)
-        
-        console.log(`clicked ${e.target}`);
+        const answer = e.target.value;
+        const question = localStorage.getItem('question');
+        const collection = userAnswers;
+        collection.push({
+            answer,
+            question
+        })
+        console.log(collection)
+        console.log(e.target.value);
+        setUserAnswers(collection);
     }
 
     function chooseCategory(category) {
@@ -140,12 +147,12 @@ const GamePage = () => {
             <div className='game-window'>
                 <p className='time'></p>
                 <h3>Here is where the question will go</h3>
-                <GameWindow category={category} questionIndex= {currentQuestion} />
+                <GameWindow category={category} questionIndex= {currentQuestion} userAnswers={userAnswers} />
                 {/* here we have to do a conditional rendering in which if the data array has data, then we build the elements for the question that corresponds to the index in the data array. the data array is the stuff we loaded from the lazy query */}
             </div>
             <div className='true-false-responses'>
-                <button className='true-button' onClick={clickHandler}>True</button>
-                <button className='false-button'onClick={clickHandler}>False</button>
+                <button value='true' className='true-button' onClick={clickHandler}>True</button>
+                <button value='false' className='false-button'onClick={clickHandler}>False</button>
             </div>
         </div>
     )

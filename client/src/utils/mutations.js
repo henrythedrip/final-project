@@ -43,7 +43,7 @@ export const ADD_SCORE = gql`
 
 export const USER_ANSWERS = gql`
 mutation submitAnswers($answers:[Answers]!){
-  submitAnswers(answers:$answers){
+  submitAnswers(Answers:$answers){
     questionCount
     correct
   }

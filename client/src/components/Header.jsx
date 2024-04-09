@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = ({ selectedPage, setSelectedPage }) => {
+const Header = ({ selectedPage, setSelectedPage, isAuthenticated }) => {
     return (
         <header className='header'>
             <span>TrUe FaLsE or DIEE!!</span>
@@ -19,14 +19,13 @@ const Header = ({ selectedPage, setSelectedPage }) => {
                 }
             >Profile</div>
 
-            <div className={selectedPage === 'loginpage'
-                ? 'selected-nav-item'
-                : ''}
-                onClick={() => setSelectedPage('loginpage')
-                }
-            >Login</div>
-
-        </header>
+<div
+        className={selectedPage === 'loginpage' ? 'selected-nav-item' : ''}
+        onClick={() => setSelectedPage('loginpage')}
+      >
+        {isAuthenticated ? 'Logout' : 'Login'}
+      </div>
+    </header>
     )
 }
 

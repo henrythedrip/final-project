@@ -68,15 +68,18 @@ const resolvers = {
     submitAnswers: async (parent, {Answers}) => {
       // count number of, correct and incorrect
       
+      
       let correct = 0
+      let questionCount = 0
       for (newAnswer of Answers){
-        let questionCount = 1
+        
         const id = newAnswer.question
         const answerSheet = await Question.findById({_id: id})
+        console.log(newAnswer.answer)
         if(newAnswer.answer === answerSheet.answer){
-           correct++
+            correct++
         }
-        questionCount++ 
+         questionCount++ 
       }
      
 

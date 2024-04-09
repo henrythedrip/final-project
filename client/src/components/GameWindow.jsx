@@ -33,7 +33,7 @@ const GameWindow = ({ category, questionIndex, userAnswers }) => {
                     <h2>There are no more questions</h2>
                 </div>
             }
-            
+            console.log(data.category.setOfQuestions[questionIndex]._id)
             localStorage.setItem('question',data.category.setOfQuestions[questionIndex]._id)
             
             return <div>

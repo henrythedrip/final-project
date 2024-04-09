@@ -59,22 +59,24 @@ const GamePage = () => {
     const [submitAnswers] = useMutation(USER_ANSWERS);
     // for picking category
     const [category, setCategory] = useState(null);
-
+console.log(userAnswers.length,'banana')
     function clickHandler(e) {
+        let answer = true;
         setCurrentQuestion(currentQuestion + 1)
-        const answer = e.target.value;
         const question = localStorage.getItem('question');
-        const collection = userAnswers;
-        collection.push({
-            answer:answer,
-            question:question
-        })
-        console.log(collection)
-        console.log(e.target.value);
-        setUserAnswers(collection);
-        if(userAnswers.length === 5){
-            setScoreSubmit(true)
+        if(e.target.value === 'true'){
+            answer = true;
+        }else{answer = false;}
+         
+                if(userAnswers.length === 5){
+            endGame()
         }
+        console.log(userAnswers);
+        return setUserAnswers([
+            ...userAnswers,
+            {question: question, answer: answer }
+        ]);
+
     }
 
     function chooseCategory(category) {
@@ -127,11 +129,11 @@ const GamePage = () => {
 
         }
     }
-console.log('what',userAnswers)
+console.log('what',userAnswers.question)
     const endGame = () => {
         
         const score = submitAnswers({
-            variables: userAnswers
+            variables: {answers: userAnswers}
         })
         if(!score){
             console.log('no score')
@@ -178,8 +180,8 @@ const scoreSave = () => {
                 {/* here we have to do a conditional rendering in which if the data array has data, then we build the elements for the question that corresponds to the index in the data array. the data array is the stuff we loaded from the lazy query */}
             </div>
             <div className='true-false-responses'>
-                <button value={true} className='true-button' onClick={clickHandler}>True</button>
-                <button value={false} className='false-button'onClick={clickHandler}>False</button>
+                <button value='true' className='true-button' onClick={clickHandler}>True</button>
+                <button value='false' className='false-button'onClick={clickHandler}>False</button>
             </div>
         </div>
     )

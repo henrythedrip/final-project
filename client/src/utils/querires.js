@@ -18,20 +18,20 @@ export const ALL_QUESTIONS = gql`
   query {
     questions {
       _id
-      questionBody
+      question
 
     }
   }
 `;
 
 export const QUERY_SINGLE_CATEGORY = gql`
-  query singleCategory($name: String!) {
-    category(name: $name) {
+  query singleCategory($categoryId: String!) {
+    category(categoryId: $categoryId) {
       _id
       name
-      questions {
+      setOfQuestions {
         _id
-        questionBody
+        question
 
       }
     }

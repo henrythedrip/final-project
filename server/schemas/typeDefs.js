@@ -2,12 +2,12 @@ const typeDefs = `
   type Category {
     _id: ID
     name: String
-    questions: [Question]
+    setOfQuestions: [Question]
   }
 
   type Question {
     _id: ID
-    questionBody: String
+    question: String
     category: Category
   }
 
@@ -35,7 +35,7 @@ type Auth {
 
 input QuestionInput {
   _id: ID!
-  questionBody: String!
+  question: String!
   category: CategoryInput
 }
 
@@ -61,7 +61,7 @@ input Answers{
   type Query {
   categories: [Category]
   questions: [Question]
-  category(name: String!): Category
+  category(categoryId: String!): Category
   user(id: ID!): User
   }
 

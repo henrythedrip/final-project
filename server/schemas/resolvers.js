@@ -16,8 +16,8 @@ const resolvers = {
     },
 
     // Category by id
-    category: async (parent, args) => {
-      return await Category.findById(args.id).populate('setOfQuestions')
+    category: async (parent, name) => {
+      return await Category.findOne({name: name}).populate('setOfQuestions')
     },
 
     //User by id

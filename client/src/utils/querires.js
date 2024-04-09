@@ -8,7 +8,7 @@ export const ALL_CATEGORIES = gql`
       questions {
         _id
         questionBody
-        answer
+
       }
     }
   }
@@ -19,20 +19,20 @@ export const ALL_QUESTIONS = gql`
     questions {
       _id
       questionBody
-      answer
+
     }
   }
 `;
 
 export const QUERY_SINGLE_CATEGORY = gql`
-  query singleCategory($id: ID!) {
-    category(id: $id) {
+  query singleCategory($name: String!) {
+    category(name: $name) {
       _id
       name
       questions {
         _id
         questionBody
-        answer
+
       }
     }
   }

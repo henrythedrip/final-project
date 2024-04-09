@@ -32,9 +32,7 @@ function LoginForm() {
         setError('Invalid username/email or password');
       }
 
-      if (isAuthenticated) {
-        return <h2>welcome { username } </h2>
-      }
+      
     };
 
 
@@ -49,7 +47,7 @@ function LoginForm() {
           required
         />
         <input
-          type="text"
+          type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Email"

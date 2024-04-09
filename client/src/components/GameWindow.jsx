@@ -16,7 +16,6 @@ const [submitAnswers] = useMutation(USER_ANSWERS)
 //     <h2>Quiz Not Found</h2>
 // </div>
 // }
-    console.log(userAnswers)
     const { loading, data } = useQuery(QUERY_SINGLE_CATEGORY, 
     {
         variables:{
@@ -29,7 +28,7 @@ const [submitAnswers] = useMutation(USER_ANSWERS)
 
         const renderQuestion = () => {
             if(!data.category.setOfQuestions[questionIndex]){
-                gameEnd()
+                
                 return <div>
                     <h2>There are no more questions</h2>
                 </div>
@@ -75,10 +74,16 @@ const [submitAnswers] = useMutation(USER_ANSWERS)
         }, 1000);
     }
 
-    // setTime();
+  const endGame = () => {
+    console.log('what',userAnswers)
+    const score = submitAnswers({
+        variables:{userAnswers}
+    })
+  }
 
     return (<div>
         {data && renderQuestion()}
+        <button onClick={endGame}>Test</button>
     </div>
         
     )

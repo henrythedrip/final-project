@@ -33,6 +33,7 @@ type Auth {
   profile: User
 }
 
+
 input QuestionInput {
   _id: ID!
   question: String!
@@ -69,7 +70,7 @@ input Answers{
     addUser(username:String!, email:String!, password:String!): Auth
     login(email:String!, password: String!): Auth
     addScore(id: ID!, score:ScoreInput): User
-    submitAnswers(Answers:[ Answers ]):Score
+    submitAnswers(Answers:[ Answers ]!):Score
   }
 `;
 

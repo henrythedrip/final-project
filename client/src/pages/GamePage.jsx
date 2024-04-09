@@ -151,8 +151,8 @@ const GamePage = () => {
                 {/* here we have to do a conditional rendering in which if the data array has data, then we build the elements for the question that corresponds to the index in the data array. the data array is the stuff we loaded from the lazy query */}
             </div>
             <div className='true-false-responses'>
-                <button value='true' className='true-button' onClick={clickHandler}>True</button>
-                <button value='false' className='false-button'onClick={clickHandler}>False</button>
+                <button value={true} className='true-button' onClick={clickHandler}>True</button>
+                <button value={false} className='false-button'onClick={clickHandler}>False</button>
             </div>
         </div>
     )

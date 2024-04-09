@@ -24,7 +24,6 @@ const Header = ({ selectedPage, setSelectedPage, isAuthenticated }) => {
         onClick={() => setSelectedPage("loginpage")}
       >
         {isAuthenticated ? "Logout" : "Login"}
-
       </div>
     </header>
   );

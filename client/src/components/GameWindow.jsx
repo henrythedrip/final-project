@@ -1,3 +1,8 @@
+import React from "react";
+import { QUERY_SINGLE_CATEGORY } from "../utils/querires";
+import { useQuery } from "@apollo/client";
+import { useState, useEffect, useRef } from "react";
+import { Timer } from "../components/Timer";
 import React from 'react';
 import { QUERY_SINGLE_CATEGORY} from '../utils/querires';
 import { useQuery  } from '@apollo/client';
@@ -41,18 +46,18 @@ const GameWindow = ({ category, questionIndex, scoreSubmit }) => {
             
             return <div>
                 <h2 value={data.category.setOfQuestions[questionIndex]._id}>{data.category.setOfQuestions[questionIndex].question}</h2>
+                <Timer />
             </div>
         } 
 
 
-        // variables: {
-        //     name: "animal"
-        // }
+  // variables: {
+  //     name: "animal"
+  // }
 
-        // });
-    
-    // console.log(data.category);
+  // });
 
+  // console.log(data.category);
 
     // var timeEl = document.querySelector(".time");
 

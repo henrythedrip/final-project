@@ -4,7 +4,7 @@
 
 True False or Die is a boolean question game. It allows users to choose between numerous different categories of true or false questions. They are presented with a timer and players attempt to answer as many questions as possible before the time runs out. After, they are given a score that reflects the quantity of correct answers. Users can login and save their info.
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)

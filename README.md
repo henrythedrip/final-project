@@ -21,6 +21,7 @@ On the Game screen a user can choose the category that they want to play when th
 
 https://truth-false-or-die.onrender.com/
 
+![homepage](image.png)
 
 
 ## Credits

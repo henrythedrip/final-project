@@ -71,7 +71,7 @@ console.log(userAnswers.length,'banana')
             answer = true;
         }else{answer = false;}
          
-                if(userAnswers.length === 5){
+                if(userAnswers.length === 10){
             endGame()
         }
         console.log(userAnswers);

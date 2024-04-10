@@ -35,6 +35,5 @@ Darbie Rousseau (github.com/)
 
 MIT
 
-.
 
 
